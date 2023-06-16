@@ -244,16 +244,12 @@ If the user is a superuser, they have one additional menu item available.
 ![Navigation Small - Admin Logged In](static/screenshot/phone-login.png)
 </details><br/>
 
-
 ### **Hero Image**
 
-If you click on 'Home' from the navigation bar menu or on the brand logo found at the top and bottom of every page, you are redirected to the HomePage. The first thing you see is a full screen hero image of corn,cucumber and lemon with the discount advert for your first order,after some seconds it moves to the next hero image of Apples grapes and a Basket and a message that say you should join our Newsletter for The Nest Mart & Groceries. At the left hand side you can see the categories of the products that are offered on the Website.You can click immediately and start shopping but you will be restricted because only users with an accounnt and proceed to cart.
+If you click on 'Home' from the navigation bar menu, you are redirected to the HomePage. The first thing you see is a full screen hero image of a group of gadget,on the hero image of you can click on the browse collection and this directs you to the categories with products on the website.
 
 HERO IMAGE 1
 ![Hero Image](static/screenshot/hero-image.png)
-
-HERO IMAGE 2
-![Hero Image](static/screenshot/hero-image2.png)
 
 ### **The Nest Mart & Groceries Mega Menu**
 
