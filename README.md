@@ -168,8 +168,6 @@ The main fonts used for the site are 'Quicksand' with a fallback font of cursive
 
 * 'Lato' was chosen for the main body and text sections of the site. It's tidy and easy to read.With Sans-serif has the backup font
 
-
-
 <details><summary><b>Fonts</b></summary>
 
 ![ Google Fonts Quicksand ](static/screenshot/fonts.png)
@@ -191,19 +189,22 @@ The navigation bar is very clean and straight forward. Depending if you are logg
 
 *Links that are visible to logged out users*
 
-* Nest Mart & Grocery Logo - On the far left hand side of the navigation bar is the Nest Mart & Grocery brand logo. This is visible throughout the site to all user types and contains a link back to the homepage.
+* NestIt Store - At the Center of the navigation bar is the Nest Mart & Grocery brand logo. This is visible throughout the site to all user types and contains a link back to the homepage.
 
 * Home - The first menu item listed 'Home' takes the user to the main 'index.html' page with all the general site information listed.
-* Search bar - This Section helps the user search the products in the store.
-* Wishlist - This section helps the user to add products to his cart but since heor she is not signed in this place when clicked takes them too the sign in page.
+* Categories - This Section helps the user search the products in the store.
+* About - This section tells the user about the company and what the companies aims and goals are.
+* Contact - In this section it shows a form where the user can contac the store owner directly.In this section,the user should write his/hers name,thier Email Address and the message they would like to send.You can also see the Contact number,Address,Email Address
 * Cart - In this section after the user has shopped and picked up all the product,he can find all the selected products here, but since he or she is not signed in this place when clicked takes them too the sign in page.
-* Accounts - Gives the user the opportunity to log in or sign up if not ready a registered user.
-        This accounts has a Submenu when hovered on.
+* Login And signUp - Gives the user the opportunity to log in or sign up if not ready a registered user.
+After the user has succesfully logged in 
+        This My Accounts has a Submenu when Clicked on.
 
-* Admin Dashboard - Gives the user the opportunity to add product,this will not be visible if not ready a registered user.
-* Order Tracking - Gives the user the opportunity to track orders,this will not be visible  if not ready a registered user.
-* My Wishlist- Gives the user the opportunity to log in or sign up if not ready a registered user.
-* SignIn - Gives the user the opportunity to log in or sign up if not ready a registered user.
+* Profile - Gives the user the opportunity to add product,this will not be visible if not ready a registered user.
+* Cart - Gives the user the opportunity to track orders placed in the cart but not finalized yet,this will not be visible  if not ready a registered user.
+* Orders- Gives the user the opportunity to his/her orders,check thier status and all information about the order if not ready a registered user.
+* Change Password - Gives the User the ability to change password,this will not be visible  if not ready a registered user..
+* Log Out - Gives the user the opportunity to log out of the website,this will not be visible  if not ready a registered user.
 
 <details><summary><b>Navigation - User Not Logged In</b></summary>
 
