@@ -125,25 +125,18 @@ Here I have listed the main user stories for three types of user. A normal user 
 | As a Super User | I can log out from the site so that no-one else can interact with the site using my details | &check; |
 | As a Super User | I can view all the products and review them | &check;
 | As a Super User | I can publish products after final checks. | &check;
- can place and order for a product on Nest Website | &check; |
+| As a Super User | I can place and order for a product on NestIt | &check; |
 | As a Super User | I can edit the quantity of the product in my Cart on Nest Website | &check; |
-| As a Super User | I can delete the product in my Cart on Nest Website | &check; |
+| As a Super User | I can delete the product in my Cart on NestIt Store | &check; |
 | As a Super User | I can view a list of all products other vendors or users have added on the site so that I can see all the product and thier rating | &check; |
-| As a Site User | I can view a list of all comments I have made on the site | &check; |
-| As a Super User | I can delete any posts so that I can remove unwanted posts from the Nest cafe and Grocery Website. | &check; |
 | As a Super User | I can approve Products so that they are published on the Nest cafe and Grocery Website.| &check; |
-| As a Super User | I can  verify and approve Vendors so that they can operate on the Nest cafe and Grocery Website.| &check; |
+| As a Super User | I can  verify and approve orders.| &check; |
 | As a Super User | I can review ratings on a specific post so that I can see other user's opinions of the posts | &check; |
-| As a Super User | I can add comments on a specific post so that I can give my opinion on other user's posts | &check; |
 | As a Super User | I can edit any ratings made by other users so that I can amend any comments that are not deemed appropriate. | &check; |
-| As a Super User | I can delete any comments made by other users so that I can remove any inappropriate comments. | &check; |
-| As a Super User | I can approve comments so that they are published on the craft cafe community. | &check; |
-| As a Super User | I can view a list of all posts made on the site so that I can see all the posts users have contributed to the Nest Website and Grocery Website.| &check; |
-| As a Super User | I can view a list of all comments made on the site so that I can see all the comments users have contributed to the Nest Website and Grocery Website. | &check; |
 | As a Super User | I can confirm payment and approve the order for shipping | &check; |
 | As a Super User | I can edit any orders before they are shipped out | &check; |
 | As a Super User | I can delete any orders in case there are any issues before they shipped out. | &check; |
-| As a Super User | I can confirm that all iis good with the order shipping address and the payment went through before they are approved for shipping. | &check; |
+| As a Super User | I can confirm that all is good with the order shipping address and the payment went through before they are approved for shipping. | &check; |
 | As a Super User | I can give User or staff authorisation to perform tasks on the admin section | &check; |
 | As a Super User | I can delete any user account so that I can remove unwanted users from the Nest Website and Grocery Website. | &check; |
 
@@ -153,7 +146,7 @@ Here I have listed the main user stories for three types of user. A normal user 
 
 The Nest Website and Grocery Website is split up in three parts:
  **when the user is logged out**, **when the user is logged in** and **when Vendor is logged in.**. 
- Depending on login status different pages are available for the user. When the user is logged out the pages: *Home*, *Menu*,*Wishlist*,*Cart* and *Account* are available from the Navigation Bar menu. When the user is logged in *Admin Dashboard*, *Profile page*, and *Order Tracking*,*My Wishlist* and *Settings* are available. If you are logged in as an administrator an *Admin* dashboard page is also available. The site is intuitive and prompts the user to sign in if they try to access areas which require a user profile.
+ Depending on login status different pages are available for the user. When the user is logged out the pages: *Home*, *cate*,*Wishlist*,*Cart*,*Cart* and *Account* are available from the Navigation Bar menu. When the user is logged in *Admin Dashboard*, *Profile page*, and *Order Tracking*,*My Wishlist* and *Settings* are available. If you are logged in as an administrator an *Admin* dashboard page is also available. The site is intuitive and prompts the user to sign in if they try to access areas which require a user profile.
 
 Read more about the different choices in the [Features](<#features>) section.
 
