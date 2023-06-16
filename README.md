@@ -117,17 +117,6 @@ Here I have listed the main user stories for three types of user. A normal user 
 | As a Site User | I can place order with numerous payment portals. | &check; |
 
 
-
-
-### Vendor is Logged in
-|  | | |
-|:-------:|:--------|:--------|
-| As a Vendor | I can log in so that I can interact fully with the site | &check; |
-| As a Vendor | I can sign up so that I can interact fully with the site | &check; |
-| As a Vendor | I can log out from the site so that no-one else can interact with the site using my details | &check; |
-| As a Vendor | I can view the Nest Website menu | &check; |
-| As a Vendor | I can vpost product and advertise my brand on Nest Mart and Grocery Website | &check; |
-
 ### Site Admin
 
 |  | | |
