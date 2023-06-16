@@ -102,27 +102,19 @@ Here I have listed the main user stories for three types of user. A normal user 
 | As a New User | I can sign up so that I can interact fully with the site | &check; |
 | As a Site User | I can log out from the site so that no-one else can interact with the site using my details | &check; |
 | As a Site User | I can view the Nest Website menu | &check; |
-| As a Site User | I can view the craft workshop schedule | &check; |
 
 ### Logged In Site User
 |  | | |
 |:-------:|:--------|:--------|
 | As a Site User | I can log in so that I can interact fully with the site | &check; |
 | As a Site User | I can log out from the site so that no-one else can interact with the site using my details | &check; |
-| As a Site User | I can view the number of ratings of products so that I can see thier ratings | &check; |
-| As a Site User | I can view the number of comments on each post so that I can see how popular a specific post is | &check; |
-| As a Site User | I can add a new product so that I can add to the Nest Mart and Grocery | &check; | 
-| As a Site User | I can edit a products so that it can be changed on the Nest Mart and Grocery Website | &check; | 
-| As a Site User | I can delete any of products so that it can be changed on the Nest Mart and Grocery Website | &check; | 
-| As a Site User | I can create a vendor account so that it can be Earn or advertise on the Nest Mart and Grocery Website | &check; | 
 | As a Site User | I can view Ratings of products so that it can be changed on the Nest Mart and Grocery Website. | &check; |
 | As a Site User | I can place and order for a product on Nest Website | &check; |
 | As a Site User | I can edit the quantity of the product in my Cart on Nest Website | &check; |
 | As a Site User | I can delete the product in my Cart on Nest Website | &check; |
 | As a Site User | I can view a list of all products I have added on the site so that I can see all the product and thier rating | &check; |
-| As a Site User | I can view a list of all comments I have made on the site | &check; |
-| As a Site User | I can create a workshop booking so that I can reserve a place on a workshop | &check; |
-| As a Site User | I can edit my workshop bookings so that I can change an existing reservation on a workshop | &check; |
+| As a Site User | I can add my shipping and billing address | &check; |
+| As a Site User | I can place order with numerous payment portals. | &check; |
 
 
 
