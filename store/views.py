@@ -5,9 +5,9 @@ from django.shortcuts import redirect, render, get_object_or_404
 from .forms import RegistrationForm, AddressForm
 from django.contrib import messages
 from django.views import View
-from django.contrib.auth.decorators import login_required
-from django.utils.decorators import method_decorator
 import decimal
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator # for Class Based Views
 
 
 # Create your views here.
