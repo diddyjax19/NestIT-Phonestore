@@ -61,6 +61,7 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
 # **Project**
 
 ## Objective
+
 I absolutely love the idea of browsing through a catalogue and placing an order.The idea of placing and order adding your shipping and billing address and to sell products or services. 
 
 Secondary objectives was to providing customers with product information and review.
@@ -86,7 +87,7 @@ Later on, during the build, I also used the Project Board to log and track bugs 
 ### Database Schema
 
 Data Schema
-![Database Schema](static/screenshot/database.png)
+![Database Schema](screenshots/database_model.png)
 
 Site Map
 ![Site Map](static/screenshot/sitemap.png)
