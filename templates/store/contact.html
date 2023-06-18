@@ -30,7 +30,7 @@
             
             <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
               <div class="alt-send-button">
-                <i class="fab-fa-envelope-open-text"></i><span class="send-text pb-1">SEND</span>
+                <i class="fab-fa-envelope-open-text"></i><span class="send-text ">SEND</span>
               </div>
             
             </button>
@@ -50,20 +50,6 @@
                 
               </ul>
       
-              {% comment %} <hr>
-              <ul class="social-media-list">
-                <li><a class="contact-icon">
-                  <i class="fab fa-facebook" aria-hidden="true"></i></a>
-                </li>
-               
-                <li><a href="https://www.twitter.com"  class="contact-icon">
-                  <i href="https://www.twitter.com" class="fab fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li><a href="https://www.instagram.com"  class="contact-icon">
-                  <i class="fab fa-instagram" aria-hidden="true"></i></a>
-                </li>       
-              </ul>
-              <hr> {% endcomment %}
       
             </div>
           
@@ -75,7 +61,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #000;
+            background-color: #fff;
             
           }
           
@@ -89,7 +75,7 @@
             margin: 0 auto;
             padding: 40px 0;
             font: 300 60px 'Oswald', sans-serif;
-            color: #fff;
+            color: #000000;
             text-transform: uppercase;
             letter-spacing: 6px;
           }
@@ -115,7 +101,7 @@
           .form-control, 
           textarea {
             max-width: 400px;
-            background-color: #000;
+            background-color: #fff;
             color: #fff;
             letter-spacing: 1px;
           }
@@ -136,7 +122,7 @@
           
           .send-text {
             display: block;
-            margin-top: 10px;
+            margin-top: 5px;
             font: 700 12px 'Lato', sans-serif;
             letter-spacing: 2px;
           }
@@ -155,21 +141,23 @@
             list-style-type: none;
             margin-left: -30px;
             padding-right: 20px;
+            
           }
           
           .list-item {
             line-height: 4;
-            color: #aaa;
+            color: #000000;
           }
           
           .contact-text {
             font: 300 18px 'Lato', sans-serif;
             letter-spacing: 1.9px;
-            color: #bbb;
+            color: #000000;
           }
           
           .city {
             margin-left: 62px;
+
           }
           
           .phone {
@@ -181,79 +169,18 @@
           }
           
           .contact-text a {
-            color: #bbb;
+            color: #000000;;
             text-decoration: none;
             transition-duration: 0.2s;
           }
           
           .contact-text a:hover {
-            color: #fff;
+            color: #FFD700;
             text-decoration: none;
           }
           
           
-          /* Social Media Icons */
-          .social-media-list {
-            position: relative;
-            font-size: 22px;
-            text-align: center;
-            width: 100%;
-            margin: 0 auto;
-            padding: 0;
-          }
           
-          .social-media-list li a {
-            color: #fff;
-          }
-          
-          .social-media-list li {
-            position: relative; 
-            display: inline-block;
-            height: 60px;
-            width: 60px;
-            margin: 10px 3px;
-            line-height: 60px;
-            border-radius: 50%;
-            color: #fff;
-            background-color: rgb(27,27,27);
-            cursor: pointer; 
-            transition: all .2s ease-in-out;
-          }
-          
-          .social-media-list li:after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 60px;
-            height: 60px;
-            line-height: 60px;
-            border-radius: 50%;
-            opacity: 0;
-            box-shadow: 0 0 0 1px #fff;
-            transition: all .2s ease-in-out;
-          }
-          
-          .social-media-list li:hover {
-            background-color: #fff; 
-          }
-          
-          .social-media-list li:hover:after {
-            opacity: 1;  
-            transform: scale(1.12);
-            transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
-          }
-          
-          .social-media-list li:hover a {
-            color: #000;
-          }
-          
-          .copyright {
-            font: 200 14px 'Oswald', sans-serif;
-            color: #555;
-            letter-spacing: 1px;
-            text-align: center;
-          }
           
           hr {
             border-color: rgba(255,255,255,.6);

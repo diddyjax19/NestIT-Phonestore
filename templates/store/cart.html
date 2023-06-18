@@ -4,7 +4,7 @@
 
     {% block content %}
       <div class="container">
-        
+        <!-- HERO SECTION-->
         <section class="py-5 bg-light">
           <div class="container">
             <div class="row px-4 px-lg-5 py-lg-4 align-items-center">
@@ -14,7 +14,7 @@
               <div class="col-lg-6 text-lg-right">
                 <nav aria-label="breadcrumb">
                   <ol class="breadcrumb justify-content-lg-end mb-0 px-0">
-                    <li class="breadcrumb-item"><a href="{% url 'store:home' %}">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Cart</li>
                   </ol>
                 </nav>
@@ -103,7 +103,13 @@
                     <li class="d-flex align-items-center justify-content-between mb-4"><strong class="text-uppercase small font-weight-bold">Total</strong><span>${{total_amount|intcomma}}</span></li>
                     <li>
 
-                     
+                      {% comment %} <form action="#">
+                        <div class="form-group mb-0">
+                          <input class="form-control" type="text" placeholder="Enter your coupon">
+                          <button class="btn btn-dark btn-sm btn-block" type="submit"> <i class="fas fa-gift mr-2"></i>Apply coupon</button>
+                        </div>
+                      </form> {% endcomment %}
+
                     </li>
                   </ul>
 
@@ -127,7 +133,7 @@
                     <div class="text-end" id="paypal-button-container"></div>
 
                     {% comment %} For Cash on Delivery {% endcomment %}
-                    <button id ="myBtn" onclick="showAlert()" type="submit" class="btn btn-dark btn-lg btn-outline-dark"> <i class="fas fa-dollar-sign mr-2"></i>Cash on Delivery</button>
+                    <button id ="myBtn" onClick = "orderConfirmation()" type="submit" class="btn btn-dark btn-lg btn-outline-dark"> <i class="fas fa-dollar-sign mr-2"></i>Cash on Delivery</button>
 
                   </form>
 
@@ -242,9 +248,9 @@
 
     <script>
 
-    const showAlert = ()=>
-      alert("Your order has been submitted...awaiting processing")
-     
+        function orderConfirmation() {
+          alert("Your order is been Processed ... Please wait for Confirmation.....")
+        }
 
     </script>
       {% endblock payment-gateway %}
