@@ -3,6 +3,12 @@
 from pathlib import Path
 
 import os
+import environ
+from sshtunnel import SSHTunnelForwarder
+
+# initialise environment variables
+env = environ.Env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -12,13 +18,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-3%y3laftm62q0zaj+s7#p-xqq9(&#q+)s8)p-&#&bz*0$!xu$0'
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['david158.pythonanywhere.com', 'localhost', 'localhost:8000','127.0.0.1']
-
+ALLOWED_HOSTS = ['diddy.pythonanywhere.com', 'localhost','127.0.0.1']
 
 # Application definition
 
@@ -63,19 +68,49 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = 'phonestore.wsgi.application'
 
+remote_address = env('ADDRESS')
+# connect to a server uisng ssh username and password
+server = SSHTunnelForwarder(
+    'ssh.pythonanywhere.com',
+    ssh_username=env('SSH_USERNAME'),
+    ssh_password=env('SSH_PASSWORD'),
+    remote_bind_address=(remote_address, 3306)
+)
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+server.start()
+
+print(server.local_bind_port)  # show assigned local port
+# work with `SECRET SERVICE` through `server.local_bind_port`.
+
+
+# # SQLite Database
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 
 DATABASES = {
+    # default database
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    },
+    # MySQL database
+    'server_db': {
+        'ENGINE': 'django.db.backends.mysql',
+        'HOST': 'localhost',
+        'PORT': server.local_bind_port,
+        'NAME': 'Diddy$nestit',
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD'),
+    },
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
