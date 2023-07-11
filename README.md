@@ -39,7 +39,7 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
 
   * [Design](https://github.com/diddyjax19/NestIT-Phonestore#design)
       * [Colours](https://github.com/diddyjax19/NestIT-Phonestore#colours)
-      * [Typography](#)
+      * [Typography](https://github.com/diddyjax19/NestIT-Phonestore#typography)
       * [Images](https://github.com/diddyjax19/NestIT-Phonestore#images)
       * [Wireframes](https://github.com/diddyjax19/NestIT-Phonestore#wireframes)
   * [Libraries And Installed Packages](https://github.com/diddyjax19/NestIT-Phonestore#libraries-and-installed-packages)
@@ -54,7 +54,7 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
 
 # Project Goals
 ***
-This application was created for people who love to cook. In creating this project my goal was to make the app easy to use. My goal was that this application could be used not only by adults but also by younger children who are just starting to learn how to cook. They can delete recipes, improve them, and add images.
+The NestIt Phone Store is  regular store where people can go to browse and order from a variety of phone and accesories.The store is open 24 hrs with staffs processing order to meet the clients need, it also as a place where customers can register and be part of the community to receive deals and promotions. Through the The NestIt store, users can check thier orders and the status of the delivery,they are also aware of where the good are coming from.
 
 # UX
 ***
@@ -78,9 +78,10 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 3 EPIC - Add CRUD functionality
 
-    * As a Site User I want to browse .
-    * As a Site User I want to update recipes.
-    * As a Site User I want to delete recipes from my recipe page. 
+    * As a Site User I want to browse the website. .
+    * As a Site User I want to browse my categories.
+    * As a Site User I want to update my cart.
+    * As a Site User I want to delete cart from my cart page. 
 
 4 EPIC - Create Recipe Form 
 
