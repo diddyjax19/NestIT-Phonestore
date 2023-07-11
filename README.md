@@ -1,6 +1,6 @@
 # NestIt Store - An Online store App!
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#)[![](screenshot/responsive.png)](screenshot/responsive.png)
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#)[![](screenshot/responsive.png)](screenshot/responsive.png)
 
 The NestIt Phone Store is  regular store where people can go to browse and order from a variety of phone and accesories.The store is open 24 hrs with staffs processing order to meet the clients need, it also as a place where customers can register and be part of the community to receive deals and promotions. Through the The NestIt store, users can check thier orders and the status of the delivery,they are also aware of where the good are coming from.
 
@@ -17,25 +17,25 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
 
 - [User Experience (UX)](https://github.com/diddyjax19/NestIT-Phonestore#user-experience-ux)
   - [User Stories](https://github.com/diddyjax19/NestIT-Phonestore#user-stories)
-  - [Agile Methodology](https://github.com/diddyjax19/Taskit-FrontEnd#agile-methodology)
-  - [Design](https://github.com/diddyjax19/Taskit-FrontEnd#design)
-  - [Wireframes](https://github.com/diddyjax19/Taskit-FrontEnd#wireframes)
-- [Features](https://github.com/diddyjax19/Taskit-FrontEnd#features)
-  - [Future Features](https://github.com/diddyjax19/Taskit-FrontEnd#future-features)
-- [Technologies Used](https://github.com/diddyjax19/Taskit-FrontEnd#technologies-used)
-  - [Languages Used](https://github.com/diddyjax19/Taskit-FrontEnd#languages-used)
-  - [Frameworks Used](https://github.com/diddyjax19/Taskit-FrontEnd#frameworks-used)
-- [Testing](https://github.com/diddyjax19/Taskit-FrontEnd#testing)
-  - [Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#bugs)
-    - [Bugs](https://github.com/diddyjax19/Taskit-FrontEnd#Bugs)
-- [Deployment](https://github.com/diddyjax19/Taskit-FrontEnd#deployment)
-  - [Forking the GitHub Repository](https://github.com/diddyjax19/Taskit-FrontEnd#forking-the-github-repository)
-  - [Making a Local Clone](https://github.com/diddyjax19/Taskit-FrontEnd#making-a-local-clone)
-  - [Deploying with Netlify](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-Netlify)
-- [Credits](https://github.com/diddyjax19/Taskit-FrontEnd#credits)
-  - [Code](https://github.com/diddyjax19/Taskit-FrontEnd#code)
-  - [Media](https://github.com/diddyjax19/Taskit-FrontEnd#media)
-  - [Acknowledgments](https://github.com/diddyjax19/Taskit-FrontEnd#acknowledgments)
+  - [Agile Methodology](https://github.com/diddyjax19/NestIT-Phonestore--pp4#agile-methodology)
+  - [Design](https://github.com/diddyjax19/NestIT-Phonestore--pp4#design)
+  - [Wireframes](https://github.com/diddyjax19/NestIT-Phonestore--pp4#wireframes)
+- [Features](https://github.com/diddyjax19/NestIT-Phonestore--pp4#features)
+  - [Future Features](https://github.com/diddyjax19/NestIT-Phonestore--pp4#future-features)
+- [Technologies Used](https://github.com/diddyjax19/NestIT-Phonestore--pp4#technologies-used)
+  - [Languages Used](https://github.com/diddyjax19/NestIT-Phonestore--pp4#languages-used)
+  - [Frameworks Used](https://github.com/diddyjax19/NestIT-Phonestore--pp4#frameworks-used)
+- [Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#testing)
+  - [Bugs](https://github.com/diddyjax19/NestIT-Phonestore--pp4#bugs)
+    - [Bugs](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Bugs)
+- [Deployment](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deployment)
+  - [Forking the GitHub Repository](https://github.com/diddyjax19/NestIT-Phonestore--pp4#forking-the-github-repository)
+  - [Making a Local Clone](https://github.com/diddyjax19/NestIT-Phonestore--pp4#making-a-local-clone)
+  - [Deploying with Netlify](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deploying-with-Netlify)
+- [Credits](https://github.com/diddyjax19/NestIT-Phonestore--pp4#credits)
+  - [Code](https://github.com/diddyjax19/NestIT-Phonestore--pp4#code)
+  - [Media](https://github.com/diddyjax19/NestIT-Phonestore--pp4#media)
+  - [Acknowledgments](https://github.com/diddyjax19/NestIT-Phonestore--pp4#acknowledgments)
 
 ## [](https://github.com/diddyjax19/Taskit-FrontEnd#user-experience-ux)User Experience (UX)
 
@@ -56,24 +56,24 @@ Some criterias in achieving this goal were identified as below:
 
 - User stories can be viewed in the GitHub repository and each user story has been grouped into Epics which can be displayed on the project's [Kanban board](https://github.com/users/diddyjax19/projects/6/views/1).
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#agile-methodology)Agile methodology
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#agile-methodology)Agile methodology
 
 - The Agile Methodology was employed throughout this project, where GitHub projects were used to create User Stories, including a list of priorities grouped into Tags. Thus, the process can be carried out with a view to the priorities of the (supposed) client.
 - A lst of all issues and its labels can be found [here](https://github.com/diddyjax19/Taskit-FrontEnd/issues).
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#design)Design
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#design)Design
 
-- #### [](https://github.com/diddyjax19/Taskit-FrontEnd#color-scheme)Color Scheme
+- #### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#color-scheme)Color Scheme
 
   I decided to incorporate a minimalistic design approach for the site. This is in order to make the content and detailed information throughout the site to stand out better to the users.
 
   The main color used is black that represents a calm and trustworthy color type, in order to build trust to the user.
 
-- #### [](https://github.com/diddyjax19/Taskit-FrontEnd#typography)Typography
+- #### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#typography)Typography
 
   Google Fonts was used for the font in the project. The name of the font is Poppins with a medium font weight for a stylistic impression.
 
-- ### [](https://github.com/diddyjax19/Taskit-FrontEnd#wireframes)Wireframes
+- ### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#wireframes)Wireframes
 
 - ##### Signup Page:
 
@@ -100,9 +100,9 @@ Some criterias in achieving this goal were identified as below:
   [ ![Wireframe Post Detail](screenshot/View.task.blask.jpg)](screenshot/View.task.blask.jpg)
 
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#features)Features
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#features)Features
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#navbar--search)NavBar & Search
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#navbar--search)NavBar & Search
 
 - Contains the necessary links for navigation throughout the site.
 - The searchbar makes it possible search among the various Project.
@@ -114,7 +114,7 @@ Some criterias in achieving this goal were identified as below:
 
 [![Navbar](screenshot/nav4.png)](screenshot/nav4.png)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#Project-List-page)Project List page
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Project-List-page)Project List page
 
 - Shows all the created Projects by admin.
 - Shows the  Project Name created.
@@ -123,7 +123,7 @@ Some criterias in achieving this goal were identified as below:
 
 [![PostList](screenshot/1.png)](screenshot/1.png)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#car-detail-page)Create Project page
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#car-detail-page)Create Project page
 
 - Contains how the admin can create project
 - By clicking the + button on the home page 
@@ -135,7 +135,7 @@ Some criterias in achieving this goal were identified as below:
 
 [![Post](screenshot/create.project.png)](screenshot/create.project.png)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#car-detail-page)Create Task page
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#car-detail-page)Create Task page
 
 - Contains how the admin can create Task
 - Click add task button on the project creation menu.
@@ -146,7 +146,7 @@ Some criterias in achieving this goal were identified as below:
 
 [![Post](screenshot/create.task2.png)](screenshot/create.task2.png)
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#car-edit-page)View Task page
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#car-edit-page)View Task page
 
 - In this Section each user can view the tasks of then whole team and see who each task are assigned to.
 
@@ -156,20 +156,20 @@ Some criterias in achieving this goal were identified as below:
 
 [![EditPost](screenshot/view.task2.png)](screenshot/view.task2.png)
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#Search-Bar) Search Bar
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Search-Bar) Search Bar
 
 - In this Section we can see thew search bar created to allow the user or admin search through the projects.
 
 [![SearchBar](screenshot/serach.menu.fortasks.png)](screenshot/serach.menu.fortasks.png)
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#Task-list)Quick Task List
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Task-list)Quick Task List
 
 - This section shows a quick view of the tasks already created.
 
 [![QuickTask](screenshot/quick.menu.fortasks.png)](screenshot/quick.menu.fortasks.png)
 
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#future-features)Future Features
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#future-features)Future Features
 
 Some future features were idealized to be implemented:
 
@@ -177,15 +177,15 @@ Some future features were idealized to be implemented:
 - Ability for users on the same platform to interact to each other,like a chat system between users on the same platform.
 - 
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#technologies-used)Technologies Used
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#technologies-used)Technologies Used
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#languages)Languages
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#languages)Languages
 
 - JavaScript
 - HTML5
 - CSS3
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#frameworks-libraries--programs-used)Frameworks, Libraries & Programs Used
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#frameworks-libraries--programs-used)Frameworks, Libraries & Programs Used
 
 - [React](https://reactjs.org/) - (Front-end JavaScript library for building user interfaces based on UI components)
 - [React Bootstrap](https://react-bootstrap.github.io/) - Component-based library that provides native Bootstrap components as pure React components[1](https://www.pluralsight.com/guides/how-to-set-up-a-react-bootstrap-app). Used to create a responsive application/component UI.
@@ -203,7 +203,7 @@ Some future features were idealized to be implemented:
   - [ESLint](https://eslint.org/) - Code Linter.
   - [Prettier](https://prettier.io/) - Code Formatting.
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#testing)Testing
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#testing)Testing
 
 ### [](https://github.com/diddyjax19/Taskit-FrontEnd#navigation)Navigation-test
 
@@ -211,29 +211,29 @@ Some future features were idealized to be implemented:
 2. by Clicking the email you can return to the home page. - PASS
 3. Search for keywords in the search bar to find the Project and Task. - PASS
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#Project)Project
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Project)Project
 
 1. Create Projects - PASS
 2. Edit the description of the project,added the start date and end date. - PASS
 3. Create Task. PASS
 4. Create a Task,description,the state of the project,the project description and the start date and end date.. - PASS
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#authentication)Authentication
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#authentication)Authentication
 
 1. Register account. - PASS
 2. Login and logout. - PASS
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#code-validation)Code Validation
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#code-validation)Code Validation
 
-### [](https://github.com/vivignutz/balcongardens-fe#jsx)JSX
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#jsx)JSX
 
 The JSX code was validated during the development process and corrected as the project proceeded.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#css)CSS
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#css)CSS
 
 Checked the CSS syntax at the W3C CSS Validator Service and the results came with no errors.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#lighthouse-scores)Lighthouse Scores
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#lighthouse-scores)Lighthouse Scores
 
 The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The performance metrics however were impacted by the large image sizes, ahtough all of them were resized before uploaded. For future updates I will investigate possibilities to have cloudinary to resize the images on upload automatically to speed up the site.
 
@@ -245,28 +245,28 @@ The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The pe
 
 [![Lighthouse Mobile](screenshot/mobile.lighthouse.png)](screenshot/mobile.lighthouse.png)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#responsiveness)Responsiveness
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#responsiveness)Responsiveness
 
 The website was thoroughly tested using the [responsivetesttool.](https://responsivetesttool.com/)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#bugs)Bugs
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#bugs)Bugs
 
-#### [](https://github.com/diddyjax19/Taskit-FrontEnd#fixed-bugs)Fixed Bugs
+#### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#fixed-bugs)Fixed Bugs
 
 - Unhandled rejection (TypeError) cannit read properties of undefined (reading 'status')
 
 - Solution
 - Used Django rest framework serializer class
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#deployment)Deployment
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deployment)Deployment
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#forking-the-github-repository)Forking the GitHub Repository
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#forking-the-github-repository)Forking the GitHub Repository
 
 1.  Go to [the project repository](https://github.com/diddyjax19/Taskit-FrontEnd)
 2.  In the right most top menu, click the "Fork" button.
 3.  There will now be a copy of the repository in your own GitHub account.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#running-the-project-locally)Running the project locally
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#running-the-project-locally)Running the project locally
 
 1.  Go to [the project repository](https://github.com/diddyjax19/Taskit-FrontEnd)
 2.  Click on the "Code" button.
@@ -275,16 +275,16 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 5.  Type `git clone` and paste the URL that was copied in step 3.
 6.  Press Enter and the local clone will be created.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#alternatively-by-using-gitpod)Alternatively by using Gitpod:
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#alternatively-by-using-gitpod)Alternatively by using Gitpod:
 
 1.  Go to [the project repository](https://github.com/diddyjax19/Taskit-FrontEnd)
 2.  Click the green button that says "Gitpod" and the project will now open up in Gitpod.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#deploying-with-Netlify)Deploying with Netlify
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deploying-with-Netlify)Deploying with Netlify
 
 1.  Go to [https://www.netlify.com/](https://www.netlify.com/) and log in; if you do not already have an account then you will need to create one.
 
-#### [](https://github.com/diddyjax19/Taskit-FrontEnd#Netlify-deployment)Netlify Deployment
+#### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Netlify-deployment)Netlify Deployment
 
 1.  On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
 [![Netlify](screenshot/Netlify1.PNG)](screenshot/Netlify1.PNG)
@@ -295,22 +295,22 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 *  Alternatively, you can click on Browse to upload to select your build folder from the file system. On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
 
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#credits)Credits
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#credits)Credits
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#online-documentation)Online Documentation
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#online-documentation)Online Documentation
 
 - [React documentation](https://reactjs.org/docs/getting-started.html)
 - [React Bootstrap documentation and examples](https://react-bootstrap.github.io/)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#code)Code
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#code)Code
 
 - The Moments tutorial by Code institute was used to create the foundations on which I built upon to create the project.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#media)Media
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#media)Media
 
 - The images used throughout the project are from [https://unsplash.com/de/](https://unsplash.com/de)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#acknowledgements)Acknowledgements
+### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#acknowledgements)Acknowledgements
 
 - The tutor support team at Code Institute for their support.
 - My Code Institute Mentor, the best one that CI could have. All feedbacks, help and suggestions were very helpful to me - thank you, Martina Terlevic!
