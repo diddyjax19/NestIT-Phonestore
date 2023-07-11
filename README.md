@@ -15,250 +15,220 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
 
 ## [](https://github.com/diddyjax19/NestIT-Phonestore#toc)Table of Contents
 
-- [User Experience (UX)](https://github.com/diddyjax19/NestIT-Phonestore#user-experience-ux)
-  - [User Stories](https://github.com/diddyjax19/NestIT-Phonestore#user-stories)
-  - [Agile Methodology](https://github.com/diddyjax19/NestIT-Phonestore--pp4#agile-methodology)
-  - [Design](https://github.com/diddyjax19/NestIT-Phonestore--pp4#design)
-  - [Wireframes](https://github.com/diddyjax19/NestIT-Phonestore--pp4#wireframes)
-- [Features](https://github.com/diddyjax19/NestIT-Phonestore--pp4#features)
-  - [Future Features](https://github.com/diddyjax19/NestIT-Phonestore--pp4#future-features)
-- [Technologies Used](https://github.com/diddyjax19/NestIT-Phonestore--pp4#technologies-used)
-  - [Languages Used](https://github.com/diddyjax19/NestIT-Phonestore--pp4#languages-used)
-  - [Frameworks Used](https://github.com/diddyjax19/NestIT-Phonestore--pp4#frameworks-used)
-- [Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#testing)
-  - [Bugs](https://github.com/diddyjax19/NestIT-Phonestore--pp4#bugs)
-    - [Bugs](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Bugs)
-- [Deployment](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deployment)
-  - [Forking the GitHub Repository](https://github.com/diddyjax19/NestIT-Phonestore--pp4#forking-the-github-repository)
-  - [Making a Local Clone](https://github.com/diddyjax19/NestIT-Phonestore--pp4#making-a-local-clone)
-  - [Deploying with Netlify](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deploying-with-Netlify)
-- [Credits](https://github.com/diddyjax19/NestIT-Phonestore--pp4#credits)
-  - [Code](https://github.com/diddyjax19/NestIT-Phonestore--pp4#code)
-  - [Media](https://github.com/diddyjax19/NestIT-Phonestore--pp4#media)
-  - [Acknowledgments](https://github.com/diddyjax19/NestIT-Phonestore--pp4#acknowledgments)
 
-## [](https://github.com/diddyjax19/Taskit-FrontEnd#user-experience-ux)User Experience (UX)
 
-The project was created in order to offer a  Taskmanger app where users on a given network can add projects,add users to the network,create a task in the project,assign a start date and due date,set priority  and state of the project.
-It also allows all user see the entire projects in the workspace and the tasks.
-Some criterias in achieving this goal were identified as below:
+# Table of contents
 
-- The main experience is to build a Task manager app .
-- Registered users should be to see the projects and the task assigned to them and thier team.
-- Create functionality for users search for task and projects available.
-- Registered users should be view each project,view the description of the project and see the Start date and the due date.
-- Registered users should be able view each task in any project,view the description of the task as they are assigned,view the tasks state and thier Start date and the due date.
+  * [Project goals](https://github.com/diddyjax19/NestIT-Phonestore#project-goals)
+  * [UX](https://github.com/diddyjax19/NestIT-Phonestore#ux)
+     * [User stories](https://github.com/diddyjax19/NestIT-Phonestore#user-stories)
+  
+  * [Features ](https://github.com/diddyjax19/NestIT-Phonestore#features)
+      * [Navigation](https://github.com/diddyjax19/NestIT-Phonestore#navigation-bar)
+      * [Home page](https://github.com/diddyjax19/NestIT-Phonestore#home-page)
+      * [Registration page](https://github.com/diddyjax19/NestIT-Phonestore#registration-page)
+      * [Log In / Log Out page](https://github.com/diddyjax19/NestIT-Phonestore#registration-page)
+      * [Recipe library](https://github.com/diddyjax19/NestIT-Phonestore#recipe-library)
+      * [Search bar](https://github.com/diddyjax19/NestIT-Phonestore#search-bar) 
+      * [Paginations](https://github.com/diddyjax19/NestIT-Phonestore#pagination)
+      * [Like button](#like-button)
+      * [Success Messages](#)
+      * [Add recipe page](https://github.com/diddyjax19/NestIT-Phonestore#add-recipe-page)
 
+  * [Design](https://github.com/diddyjax19/NestIT-Phonestore#user-experience-ux)#design)
+      * [Colours](https://github.com/diddyjax19/NestIT-Phonestore#colours)
+      * [Typography](#)
+      * [Images](https://github.com/diddyjax19/NestIT-Phonestore#images)
+      * [Wireframes](https://github.com/diddyjax19/NestIT-Phonestore#wireframes)
+  * [Libraries And Installed Packages](https://github.com/diddyjax19/NestIT-Phonestore#libraries-and-installed-packages)
+  * [Testing](https://github.com/diddyjax19/NestIT-Phonestore#testing)
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#user-stories)User stories
+  * [Deployment](#deployment) 
+  * [Technologies Used](#technologies-used)
+  * [Credit](#credits)
 
-[ ![Preview Kanban](screenshot/kaban.png)](screenshot/kaban.png)
+ ![](./readmeDocumentation/screenshot/iAmResponsive.png)
 
-- User stories can be viewed in the GitHub repository and each user story has been grouped into Epics which can be displayed on the project's [Kanban board](https://github.com/users/diddyjax19/projects/6/views/1).
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#agile-methodology)Agile methodology
+# Project Goals
+***
+This application was created for people who love to cook. In creating this project my goal was to make the app easy to use. My goal was that this application could be used not only by adults but also by younger children who are just starting to learn how to cook. They can delete recipes, improve them, and add images.
 
-- The Agile Methodology was employed throughout this project, where GitHub projects were used to create User Stories, including a list of priorities grouped into Tags. Thus, the process can be carried out with a view to the priorities of the (supposed) client.
-- A lst of all issues and its labels can be found [here](https://github.com/diddyjax19/Taskit-FrontEnd/issues).
+# UX
+***
+ ## User Stories 
+ ***
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#design)Design
+My Project was developed with agile planning. I had three columns: To Do, In Progress, and Done. This helps me to manage my project and helps me to be more flexible and adaptable to changes.
+Below are the User stories that were used in creating this project. I add 8 EPIC with labels MUST, SHOULD-HAVE.
 
-- #### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#color-scheme)Color Scheme
+[Link for User stories](https://github.com/Aliona83/project4--test/issues)
 
-  I decided to incorporate a minimalistic design approach for the site. This is in order to make the content and detailed information throughout the site to stand out better to the users.
+<details>
+<summary>Click to see more</summary>
 
-  The main color used is black that represents a calm and trustworthy color type, in order to build trust to the user.
+1 EPIC - Home Page and Navigation Bar
 
-- #### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#typography)Typography
+    * As a Site User I can easily navigate around the site so that I can view different pages. As a Site User, I want to see a home page with basic information about the app.
+2 EPIC - Account registration 
 
-  Google Fonts was used for the font in the project. The name of the font is Poppins with a medium font weight for a stylistic impression.
+    * As a Site User I want to be able to create an account and log in into my app with my username and password.
 
-- ### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#wireframes)Wireframes
+3 EPIC - Add CRUD functionality
 
-- ##### Signup Page:
+    * As a Site User I want to browse .
+    * As a Site User I want to update recipes.
+    * As a Site User I want to delete recipes from my recipe page. 
 
-  [ ![Wireframe Main Page](screenshot/Sign.up.Blasq.jpg)](screenshot/Sign.up.Blasq.jpg)
+4 EPIC - Create Recipe Form 
 
-- ##### SignIn Page:
+   * As a Site User I want to have a recipe form where I will be able to add all ingredients, and instructions, sort by meal type and be able to add an image of the recipe.
 
-  [ ![Wireframe Main Page](screenshot/Signin.blasq.jpg)](screenshot/Signin.blasq.jpg)
+5 EPIC - Recipe page
+    
+   * As a Site User I want to have a separate page where I will be able to see all recipes that I save.
 
-- ##### Home Page:
+6 EPIC - Pagination 
 
-  [ ![Wireframe Main Page](screenshot/home.page.blasq.jpg)](screenshot/home.page.blasq.jpg)
+   * As a Site User I want to see a number of pages in recipe page. 
 
-- ##### Create Project Page:
+7 EPIC - Search Bar 
+   
+   * As a Site User I want to be able search my recipes by ingredients and by type of meals(breakfast, lunch and dinner)
+</details>
 
-  [ ![Wireframe Main Page](screenshot/Creat.project.blasq.jpg)](screenshot/Creat.project.blasq.jpg)
+# Features  
+  ***
+<details>
+<summary>Click to see more</summary>
 
-- ##### Create Task Page:
+ ## Navigation Bar
+ ![](./readmeImages/navigationBar.png)
 
-  [ ![Wireframe Main Page](screenshot/Create.task.blasq.jpg)](screenshot/Create.task.blasq.jpg)
+ * The navigation menu consists of Logo-text, register and Log In. By clicking on the Logo, the user can always return to the Home page. 
+ If the User is new, he will have to register, and if the User already exists, he can easily Log In to his recipe page. When the User login, some links on the navigation bar will change, and the user will be able to see the recipe library, add a new recipe and Log Out.
 
-- ##### View Task Page:
+ ![](./readmeImages/navigationaBarToRegister.png)
 
-  [ ![Wireframe Post Detail](screenshot/View.task.blask.jpg)](screenshot/View.task.blask.jpg)
+ * Also on the small screen the navigation menu will be changed to the burger menu which shows all the navigation links.
 
+ ![](./readmeDocumentation/screenshot/burgerMenu.png)
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#features)Features
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#navbar--search)NavBar & Search
+ ## Home Page
+ ![](./readmeDocumentation/screenshot/homePage.png)
 
-- Contains the necessary links for navigation throughout the site.
-- The searchbar makes it possible search among the various Project.
-- When user is using a small screen, the NavBar toggle turns into a burger icon.
+ * The home page has a welcome message and a short description of the application. At the bottom are three bright images of a recipe with the small guide on what users can do with this app.
+ ## Registration page
+  
+ * Django allauth was installed and used to create the Sign-Up, Login, and Log Out functionality and pages
+   * Sign UP
 
-[![Navbar](screenshot/navbar.png)](screenshot/navbar.png)
+ * The user has to fill up the fields in the registration form: username, email, and password. If the User already exists they can click on the top page Sign In button, and will be transferred to the log-in form.
+ ![](./readmeDocumentation/screenshot/registrationForm.png)
+   * Log In
 
-[![Navbar](screenshot/navbar2.png)](screenshot/navbar2.png)
+ * Log in form is similar to Sign up, only has a few fields username and a password. If the User forgotten to register as a new user,on the top of the Sign Up page there is a Sign Up link were the user can Sign Up. 
+ ![](./readmeDocumentation/screenshot/logIn.png)
+   * Success/unsuccess messages 
 
-[![Navbar](screenshot/nav4.png)](screenshot/nav4.png)
+ * Success messages inform the user if they already have an account, enter the wrong password or username or enter the short password by creating a new account user.
+ ![](./readmeDocumentation/screenshot/userAlreadyExist.png)
+ ![](./readmeDocumentation/screenshot/wrongPassword.png)
+ ![](./readmeDocumentation/screenshot/passwordTooShort.png)
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Project-List-page)Project List page
+ ## Recipe library
 
-- Shows all the created Projects by admin.
-- Shows the  Project Name created.
-- Shows a brief Project description.
-- Shows a button to view the project.
+ * This is the main page where all created recipes are saved. Under each recipe is the title of the recipe, and the type of meal.
 
-[![PostList](screenshot/1.png)](screenshot/1.png)
+ ![](./readmeDocumentation/screenshot/recipeLibrary.png)
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#car-detail-page)Create Project page
 
-- Contains how the admin can create project
-- By clicking the + button on the home page 
+ * By clicking on the image of the recipe, the user will be redirected to a page where the user can see the whole recipe with descriptions and ingredients.
 
+ ![](./readmeDocumentation/screenshot/viewRecipe.png)
 
-[![Post](screenshot/createproject.page1.png)](screenshot/createproject.page1.png)
+ * At the end of each recipe there are two buttons where the user will be able to delete the recipe or by clicking on the create button will be able to add changes to each recipe.
 
-- Includes pictures,start date and end date.
+ ![](./readmeDocumentation/screenshot/createDeleteRecipe.png)
 
-[![Post](screenshot/create.project.png)](screenshot/create.project.png)
+   * Search Bar
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#car-detail-page)Create Task page
+ * Users can simply search for recipes by type of meal or by recipe ingredients.
 
-- Contains how the admin can create Task
-- Click add task button on the project creation menu.
+ ![](./readmeDocumentation/screenshot/searchBar.png)
 
-[![Post](screenshot/create.task1.png)](screenshot/create.task1.png)
+   * Pagination
 
-- In this Section you can create the task,add the description,set the state of the task,assign the task to the designated user,set the start and end date and save the task.
+ * The website has a pagination, that will improve the user experience by providing a faster and more responsive interface. Pagination has a link to the next and previous page of results, it offers visitors a more quick and convenient navigation through the recipe page.
 
-[![Post](screenshot/create.task2.png)](screenshot/create.task2.png)
+ ![](./readmeDocumentation/screenshot/pagination.png)
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#car-edit-page)View Task page
+   * Like/ unlike button
 
-- In this Section each user can view the tasks of then whole team and see who each task are assigned to.
+ * Under each recipe, there is a like button where the user can like the recipe that he likes or leave unlike. A Like button was created in the shape of a heart. If the user liked the recipe, the heart will turn red; if the recipe is not liked, the heart will be white un text will be unlike.
+   
+ ![](./readmeDocumentation/screenshot/likeButton.png)
+ ![](./readmeDocumentation/screenshot/unlike%20button.png)
+   
+   * Success Messages
 
-[![EditPost](screenshot/view.task.png)](screenshot/view.task.png)
+  * The user will be getting success message if the recipe were successfully delete, add or updated
 
-- In this Section the user can click on any task and view all the descriptions.
+  ![](./readmeDocumentation/screenshot/deleteRecipe.png)
+  ![](./readmeDocumentation/screenshot/addRecipe.png)
+  ![](./readmeDocumentation/screenshot/updateRecipe.png)
+ 
+ ## Add Recipe page
 
-[![EditPost](screenshot/view.task2.png)](screenshot/view.task2.png)
+ ![](./readmeDocumentation/screenshot/addRecipeForm.png)
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Search-Bar) Search Bar
+ * Each registered user will be able to add a recipe to this application. The recipe form consists of the recipe's title, description, recipe ingredients, recipe instructions, add image and sort recipes by meal type(breakfast, lunch, dinner).
 
-- In this Section we can see thew search bar created to allow the user or admin search through the projects.
+</details>
 
-[![SearchBar](screenshot/serach.menu.fortasks.png)](screenshot/serach.menu.fortasks.png)
+ # Design 
+  ***
+## Colours
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Task-list)Quick Task List
+ ![](./readmeDocumentation/screenshot/coloursUsed.png)
 
-- This section shows a quick view of the tasks already created.
+  * The colour scheme was chosen by the background image of the project. I want to choose golden-brown colours so that they will blend with the background image.
 
-[![QuickTask](screenshot/quick.menu.fortasks.png)](screenshot/quick.menu.fortasks.png)
+ For the navigation bar and footer, I used --earthyellow: #e6b56d;,--copper: #a67732; and  --Sunset: #f2c88b.
+ For all buttons that exist in the project I used  --smokyblack: #131200; and --copper: #a67732;
+ For the jumbotron background colour I used --Sunset: #f2c88b.
+ For paragraph and heading I used --smokyblack: #131200;
+ For pagination I used background colour --copper: #a67732; and for border-colour --Sunset: #f2c88b.
 
+## Typography
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#future-features)Future Features
+* The font chosen for the website is a font called Merriweather. I used this font because Merriweather font is ideal for text-dense design: the letterforms have a tall x-height but remain relatively small, making for excellent readability across screen sizes while not occupying extra horizontal space. The font was found on [Google Font](https://fonts.google.com/) and imported to the website through a CSS import.
 
-Some future features were idealized to be implemented:
+## Images
 
-- Offer more search options with filters based on different criteria.
-- Ability for users on the same platform to interact to each other,like a chat system between users on the same platform.
-- 
+* All images were all taken from [Pexels](https://www.pexels.com/ru-ru/). 
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#technologies-used)Technologies Used
+## Wireframes
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#languages)Languages
+[Link to wireframes](https://github.com/Aliona83/project4--test/tree/main/readmeDocumentation/wireframes)
 
-- JavaScript
-- HTML5
-- CSS3
+# Libraries And Installed Packages
+***
+  * Django -crispy-forms - Used to render forms throughout the project.
+  * Django - allauth - Allows authentication, registration and account management in Django.
+  * Gunicorn - a Python WSGI HTTP Server for UNIX
+  * Dj3-Cloudinary-storage - Facilitates integration with Cloudinary by implementing Django Storage API.
 
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#frameworks-libraries--programs-used)Frameworks, Libraries & Programs Used
 
-- [React](https://reactjs.org/) - (Front-end JavaScript library for building user interfaces based on UI components)
-- [React Bootstrap](https://react-bootstrap.github.io/) - Component-based library that provides native Bootstrap components as pure React components[1](https://www.pluralsight.com/guides/how-to-set-up-a-react-bootstrap-app). Used to create a responsive application/component UI.
-- [Axios](https://axios-http.com/) - Promise based HTTP client for the browser and node.js. Used to make HTTP requests from throughout the application.
-- [jwt-decode](https://github.com/auth0/jwt-decode) - Used to decode and extract information from a JWT token.
-- [react-router-dom](https://www.npmjs.com/package/react-router-dom) - Routing library for the React Javascript library. Used to display different components based on the URL entered in the browser.
-- [web-vitals](https://www.npmjs.com/package/web-vitals) - is a tiny (~1.5K, brotli'd), modular library for measuring all the Web Vitals metrics on real users, in a way that accurately matches how they're measured by Chrome and reported to other Google tools
-- [reactstrap](https://reactstrap.github.io/) -  It is a tool that makes it easier to use Bootstrap components in React.
-- [react-toastify](https://www.npmjs.com/package/react-toastify) - allows you to add notifications to your app with ease.
-- [react-scripts](https://www.npmjs.com/package/react-scripts) -  a set of scripts from the create-react-app starter pack which helps you kick off projects without configuring
-- [Git](https://git-scm.com/) - Git was used for version control, using the terminal to commit to Git and Push to GitHub.
-- [GitHub:](https://github.com/) - GitHub is used to store the projects code after being pushed from Git.
-- The following modules were installed or enabled in Gitpod to assist with formatting and code linting:
+# Testing 
+***
 
-  - [ESLint](https://eslint.org/) - Code Linter.
-  - [Prettier](https://prettier.io/) - Code Formatting.
+Details of all testing done can be viewed in depth in the 
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#testing)Testing
+[Link to TESTING.md](https://github.com/diddyjax19/NestIT-Phonestore--pp4/blob/main/TESTING.md) document.
 
-### [](https://github.com/diddyjax19/Taskit-FrontEnd#navigation)Navigation-test
-
-1. Access the navigation bar on every page and easily navigate to the different sections of the website. - PASS
-2. by Clicking the email you can return to the home page. - PASS
-3. Search for keywords in the search bar to find the Project and Task. - PASS
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#Project)Project
-
-1. Create Projects - PASS
-2. Edit the description of the project,added the start date and end date. - PASS
-3. Create Task. PASS
-4. Create a Task,description,the state of the project,the project description and the start date and end date.. - PASS
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#authentication)Authentication
-
-1. Register account. - PASS
-2. Login and logout. - PASS
-
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#code-validation)Code Validation
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#jsx)JSX
-
-The JSX code was validated during the development process and corrected as the project proceeded.
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#css)CSS
-
-Checked the CSS syntax at the W3C CSS Validator Service and the results came with no errors.
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#lighthouse-scores)Lighthouse Scores
-
-The Lighthouse Scores of Google Dev Tools was used for perfoemance tests. The performance metrics however were impacted by the large image sizes, ahtough all of them were resized before uploaded. For future updates I will investigate possibilities to have cloudinary to resize the images on upload automatically to speed up the site.
-
-- Main Page Desktop.
-
-[![Lighthouse Desktop](screenshot/desktop.lighthouse.png)](screenshot/desktop.lighthouse.png)
-
-- Main Page Mobile.
-
-[![Lighthouse Mobile](screenshot/mobile.lighthouse.png)](screenshot/mobile.lighthouse.png)
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#responsiveness)Responsiveness
-
-The website was thoroughly tested using the [responsivetesttool.](https://responsivetesttool.com/)
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#bugs)Bugs
-
-#### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#fixed-bugs)Fixed Bugs
-
-- Unhandled rejection (TypeError) cannit read properties of undefined (reading 'status')
-
-- Solution
-- Used Django rest framework serializer class
-
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deployment)Deployment
+ ## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#deployment)Deployment
 
 ### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#forking-the-github-repository)Forking the GitHub Repository
 
@@ -294,24 +264,29 @@ The website was thoroughly tested using the [responsivetesttool.](https://respon
 
 *  Alternatively, you can click on Browse to upload to select your build folder from the file system. On Netlify’s dashboard, select the Site tab. Next, click on Add new site and then select Deploy manually from the drop-down menu options.
 
+# Technologies Used
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#credits)Credits
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#online-documentation)Online Documentation
-
-- [React documentation](https://reactjs.org/docs/getting-started.html)
-- [React Bootstrap documentation and examples](https://react-bootstrap.github.io/)
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#code)Code
-
-- The Moments tutorial by Code institute was used to create the foundations on which I built upon to create the project.
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#media)Media
-
-- The images used throughout the project are from [https://unsplash.com/de/](https://unsplash.com/de)
-
-### [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#acknowledgements)Acknowledgements
-
-- The tutor support team at Code Institute for their support.
-- My Code Institute Mentor, the best one that CI could have. All feedbacks, help and suggestions were very helpful to me - thank you, Martina Terlevic!
-- The Code Institute Slack community.
+* [GitHub](https://github.com/Aliona83/project4--test) - is Used in conjunction with Gitpod as the code editor, to store the project and utilise git version control.
+* [Heroku](https://dashboard.heroku.com/apps/project4-recipe/deploy/github) -  Used to deploy and host the finished product.
+* [Cloudinary](https://cloudinary.com/ip/gr-sea-gg-brand-home-base?utm_source=google&utm_medium=search&utm_campaign=goog_selfserve_brand_wk22_replicate_core_branded_keyword&utm_term=1329&campaignid=17601148700&adgroupid=141182782954&keyword=cloudinary&device=c&matchtype=e&adposition=&gad=1&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmOvYU6owOOD0_4WV0wjEeSKAO26vKCB4t7DVKWyjJLhud_3K3Y0DFRoCQBIQAvD_BwE) -  Used as cloud-based storage, storing any submitted media in the deployed application.
+* [ElephantSQ](https://customer.elephantsql.com/login) - Used to host the PostgreSQL database for the application.
+* [W3C](https://validator.w3.org/) - HTML Used to validate all HTML code.
+* [W3C](https://jigsaw.w3.org/css-validator/) - CSS Used to validate all CSS code.
+* [CI PEP8](https://pep8ci.herokuapp.com/) -  Testing Used to validate all Python code.
+* [Google Fonts](https://fonts.google.com/) - Used to provide the fonts used in application styling.
+* [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Used to aid the implementation of styling and responsiveness.
+* [Fontawesome](https://fontawesome.com/) - is Used to implement effective icons.
+* Google Chrome Dev Tools -  Used during the development to debug and test responsiveness.
+* [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmBf4umD1_GJ4rfxmLez1jQMyL3j_-olvsWrn5Rgxvvae-sQbboRbaRoC-eAQAvD_BwE) - Used to build both the database schema diagram and design wireframes.
+* [Pexel](https://www.pexels.com/search/free/) - All mages were taken from this website.
+* [Color palette](https://coolors.co/) - Select colors for website.
+* [Ax Dev Tools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - Find and fix more accessibility issues during website development with axe DevTools. 
+     
+# Credits    
+* [Stack Overflow](https://try.stackoverflow.co/explore-teams/?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278309&_bk=stack+overflow&_bm=p&_bn=g&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmF2ghGSQXiKfjiQcnpRL_87pacwew2yt-jYDV9_z56sxtUF-BMthsRoCB7oQAvD_BwE)
+* [BBC good food](https://www.bbcgoodfood.com/)
+* [Codemy.com](https://www.youtube.com/watch?v=B40bteAMM_M&list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi) 
+* [Django documentation](https://docs.djangoproject.com/en/4.2/)
+* [LinkedIn Learning](https://www.linkedin.com/learning/paths/become-a-django-developer)
+* [E-commerce website with django](https://www.youtube.com/watch?v=YZvRrldjf1Y)
+* [Codecademy](https://www.codecademy.com/?g_network=g&g_productchannel=&g_adid=528849219280&g_locinterest=&g_keyword=codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-41065460761&g_ifcreative=&g_campaign=account&g_locphysical=1007835&g_adgroupid=70492864474&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1726903838&g_ifproduct=&utm_id=t_kwd-41065460761:ag_70492864474:cp_1726903838:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy&utm_campaign=INTL_Brand_Exact&utm_content=528849219280&g_adtype=search&g_acctid=243-039-7011&
