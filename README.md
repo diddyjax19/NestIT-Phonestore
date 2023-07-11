@@ -28,7 +28,7 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
       * [Home page](https://github.com/diddyjax19/NestIT-Phonestore#home-page)
       * [Registration page](https://github.com/diddyjax19/NestIT-Phonestore#registration-page)
       * [Log In / Log Out page](https://github.com/diddyjax19/NestIT-Phonestore#registration-page)
-      * [Recipe library](https://github.com/diddyjax19/NestIT-Phonestore#recipe-library)
+      * [Categories](https://github.com/diddyjax19/NestIT-Phonestore#recipe-library)
       * [Search bar](https://github.com/diddyjax19/NestIT-Phonestore#search-bar) 
       * [Paginations](https://github.com/diddyjax19/NestIT-Phonestore#pagination)
       * [Like button](#like-button)
@@ -105,8 +105,8 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
  ## Navigation Bar
  ![](./readmeImages/navigationBar.png)
 
- * The navigation menu consists of Logo-text, register and Log In. By clicking on the Logo, the user can always return to the Home page. 
- If the User is new, he will have to register, and if the User already exists, he can easily Log In to his recipe page. When the User login, some links on the navigation bar will change, and the user will be able to see the recipe library, add a new recipe and Log Out.
+ * The navigation menu consists of Logo-text,Categories,About,contact, Log In and Create Account. By clicking on the Logo, the user can always return to the Home page. 
+ If the User is new, he will have to register, and if the User already exists, he can easily Log In to his Nestit webpage. When the User login, some links on the navigation bar will change, and the user will be able to see the cart and My Account.
 
  ![](./readmeImages/navigationaBarToRegister.png)
 
@@ -119,6 +119,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
  ![](./readmeDocumentation/screenshot/homePage.png)
 
  * The home page has a welcome message and a short description of the application. At the bottom are three bright images of a recipe with the small guide on what users can do with this app.
+
  ## Registration page
   
  * Django allauth was installed and used to create the Sign-Up, Login, and Log Out functionality and pages
@@ -130,6 +131,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  * Log in form is similar to Sign up, only has a few fields username and a password. If the User forgotten to register as a new user,on the top of the Sign Up page there is a Sign Up link were the user can Sign Up. 
  ![](./readmeDocumentation/screenshot/logIn.png)
+
    * Success/unsuccess messages 
 
  * Success messages inform the user if they already have an account, enter the wrong password or username or enter the short password by creating a new account user.
@@ -137,7 +139,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
  ![](./readmeDocumentation/screenshot/wrongPassword.png)
  ![](./readmeDocumentation/screenshot/passwordTooShort.png)
 
- ## Recipe library
+ ## Categories 
 
  * This is the main page where all created recipes are saved. Under each recipe is the title of the recipe, and the type of meal.
 
