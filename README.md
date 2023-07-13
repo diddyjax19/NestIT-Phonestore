@@ -106,41 +106,44 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 <summary>Click to see more</summary>
 
  ## Navigation Bar
- ![](./readmeImages/navigationBar.png)
+
+ ![](readmeDocumentation/screenshots/navigation-menu-web-not-login.png)
 
  * The navigation menu consists of Logo-text,Categories,About,contact, Log In and Create Account. By clicking on the Logo, the user can always return to the Home page. 
  If the User is new, he will have to register, and if the User already exists, he can easily Log In to his Nestit webpage. When the User login, some links on the navigation bar will change, and the user will be able to see the cart and My Account.
 
- ![](./readmeImages/navigationaBarToRegister.png)
+ ![](readmeDocumentation/screenshots/navigation-menu-web-loggedin.png)
 
  * Also on the small screen the navigation menu will be changed to the burger menu which shows all the navigation links.
 
- ![](./readmeDocumentation/screenshot/burgerMenu.png)
+ ![](./readmeDocumentation/screenshots/navigation-menu-mobile-loggedin.png)
 
 
  ## Home Page
- ![](./readmeDocumentation/screenshot/homePage.png)
+ ![](readmeDocumentation/screenshots/homepage.png)
 
  * The home page has a welcome message and a short description of the application. At the bottom are three bright images of a recipe with the small guide on what users can do with this app.
 
  ## Registration page
   
  * Django allauth was installed and used to create the Sign-Up, Login, and Log Out functionality and pages
+
    * Sign UP
 
  * The user has to fill up the fields in the registration form: username, email, and password. If the User already exists they can click on the top page Sign In button, and will be transferred to the log-in form.
- ![](./readmeDocumentation/screenshot/registrationForm.png)
+ ![](readmeDocumentation/screenshots/create-account.png)
+   
    * Log In
 
  * Log in form is similar to Sign up, only has a few fields username and a password. If the User forgotten to register as a new user,on the top of the Sign Up page there is a Sign Up link were the user can Sign Up. 
- ![](./readmeDocumentation/screenshot/logIn.png)
+ ![](readmeDocumentation/screenshots/signup.png)
 
    * Success/unsuccess messages 
 
  * Success messages inform the user if they already have an account, enter the wrong password or username or enter the short password by creating a new account user.
- ![](./readmeDocumentation/screenshot/userAlreadyExist.png)
- ![](./readmeDocumentation/screenshot/wrongPassword.png)
- ![](./readmeDocumentation/screenshot/passwordTooShort.png)
+ ![](readmeDocumentation/screenshots/user-existalready.png)
+ ![](readmeDocumentation/screenshots/incorrect-password.png)
+ ![](readmeDocumentation/screenshots/password-2short.png)
 
  ## Categories 
 
@@ -149,7 +152,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
  ![](./readmeDocumentation/screenshot/recipeLibrary.png)
 
 
- * By clicking on the image of the recipe, the user will be redirected to a page where the user can see the whole recipe with descriptions and ingredients.
+ * By clicking on the image of the category selected, the user will be redirected to a page where the user can see the whole recipe with descriptions and ingredients.
 
  ![](./readmeDocumentation/screenshot/viewRecipe.png)
 
