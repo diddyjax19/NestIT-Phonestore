@@ -164,7 +164,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  ![](readmeDocumentation/screenshots/Product-detail2.png)
 
-   * About Us 
+   * About Us Page
 
  * This section tell the user a brief description of the website and a hiistory of the website.
 
@@ -176,12 +176,12 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  ![](readmeDocumentation/screenshots/contact.png)
 
-   * Like/ unlike button
+   * Cart Page
 
- * Under each recipe, there is a like button where the user can like the recipe that he likes or leave unlike. A Like button was created in the shape of a heart. If the user liked the recipe, the heart will turn red; if the recipe is not liked, the heart will be white un text will be unlike.
+ * Under this Section you can see the products added to the cart,you can see the shippping address that are on your profile,you can also see a button that redirect you to continue shopping and also all the payment option available.
    
- ![](./readmeDocumentation/screenshot/likeButton.png)
- ![](./readmeDocumentation/screenshot/unlike%20button.png)
+ ![](readmeDocumentation/screenshots/cart.png)
+ ![](readmeDocumentation/screenshots/checkout.png)
    
    * Success Messages
 
@@ -191,11 +191,35 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
   ![](./readmeDocumentation/screenshot/addRecipe.png)
   ![](./readmeDocumentation/screenshot/updateRecipe.png)
  
- ## Add Recipe page
+ ## My Account
+
+ ![](readmeDocumentation/screenshots/my-account.png)
+
+ * Profile
+
+ * In this section,the user has the opportunity to contact us directly or reach out to make enquiry.
 
  ![](./readmeDocumentation/screenshot/addRecipeForm.png)
 
- * Each registered user will be able to add a recipe to this application. The recipe form consists of the recipe's title, description, recipe ingredients, recipe instructions, add image and sort recipes by meal type(breakfast, lunch, dinner).
+ * Cart
+
+ * In this section,the user has the opportunity to contact us directly or reach out to make enquiry.
+
+ ![](./readmeDocumentation/screenshot/addRecipeForm.png)
+
+
+ * Orders
+
+ * In this section,the user can see all the orders they have placed under their account,it shows the product name,the picture of the product,the quantity of product placed,the date the order was placed, and the current status of the order {completed,accepted,cancelled,delivered and pending}.
+
+ ![](./readmeDocumentation/screenshot/addRecipeForm.png)
+
+ * Change Password 
+
+ * In this section,the user can reset his password.
+
+ ![](./readmeDocumentation/screenshot/addRecipeForm.png)
+
 
 </details>
 
