@@ -147,30 +147,34 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  ## Categories 
 
- * This is the main page where all created recipes are saved. Under each recipe is the title of the recipe, and the type of meal.
+ * This is the main page where all created categories are saved. Under each category is the title of the manufacturer of the phone.
 
- ![](./readmeDocumentation/screenshot/recipeLibrary.png)
+ ![](readmeDocumentation/screenshots/catergories.png)
 
 
- * By clicking on the image of the category selected, the user will be redirected to a page where the user can see the whole recipe with descriptions and ingredients.
+ * By clicking on the image of the category, the user will be see all the phones avaliable from that manufacturer.
 
- ![](./readmeDocumentation/screenshot/viewRecipe.png)
+ ![](readmeDocumentation/screenshots/catergories-2.png)
 
- * At the end of each recipe there are two buttons where the user will be able to delete the recipe or by clicking on the create button will be able to add changes to each recipe.
+ * At selecting the phone he is then redirected to the product description.In this section the user can view all the specification and the price.In this section the user is able to get see a  complete detail of the product and also see similar products.
 
- ![](./readmeDocumentation/screenshot/createDeleteRecipe.png)
+ ![](readmeDocumentation/screenshots/Product-detail.png)
 
-   * Search Bar
+ ![](readmeDocumentation/screenshots/Product-detail2.png)
 
- * Users can simply search for recipes by type of meal or by recipe ingredients.
+ ![](readmeDocumentation/screenshots/Product-detail2.png)
 
- ![](./readmeDocumentation/screenshot/searchBar.png)
+   * About Us 
 
-   * Pagination
+ * This section tell the user a brief description of the website and a hiistory of the website.
 
- * The website has a pagination, that will improve the user experience by providing a faster and more responsive interface. Pagination has a link to the next and previous page of results, it offers visitors a more quick and convenient navigation through the recipe page.
+ ![](readmeDocumentation/screenshots/about-us.png)
 
- ![](./readmeDocumentation/screenshot/pagination.png)
+   * Contact Page
+
+ * In this section,the user has the opportunity to contact us directly or reach out to make enquiry.
+
+ ![](readmeDocumentation/screenshots/contact.png)
 
    * Like/ unlike button
 
