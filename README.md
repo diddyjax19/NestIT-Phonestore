@@ -1,6 +1,6 @@
 # NestIt Store - An Online store App!
 
-## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#)[![](screenshot/responsive.png)](screenshot/responsive.png)
+## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#)[![](readmeDocumentation/screenshots/responsive.png)](readmeDocumentation/screenshots/responsive.png)
 
 The NestIt Phone Store is  regular store where people can go to browse and order from a variety of phone and accesories.The store is open 24 hrs with staffs processing order to meet the clients need, it also as a place where customers can register and be part of the community to receive deals and promotions. Through the The NestIt store, users can check thier orders and the status of the delivery,they are also aware of where the good are coming from.
 
@@ -8,14 +8,9 @@ A simple online market place built with the Django Framework using HTML, CSS and
 
 This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net).
 
-[View live website here](http://david158.pythonanywhere.com/)
-
-![Responsive design](static/screenshot/responsive-nest.png)
-
+[View live website here](http://diddy.pythonanywhere.com/)
 
 ## [](https://github.com/diddyjax19/NestIT-Phonestore#toc)Table of Contents
-
-
 
 # Table of contents
 
@@ -48,9 +43,6 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
   * [Deployment](#deployment) 
   * [Technologies Used](#technologies-used)
   * [Credit](#credits)
-
- ![](./readmeDocumentation/screenshot/iAmResponsive.png)
-
 
 # Project Goals
 ***
@@ -182,30 +174,23 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
    
  ![](readmeDocumentation/screenshots/cart.png)
  ![](readmeDocumentation/screenshots/checkout.png)
-   
-   * Success Messages
-
-  * The user will be getting success message if the recipe were successfully delete, add or updated
-
-  ![](./readmeDocumentation/screenshot/deleteRecipe.png)
-  ![](./readmeDocumentation/screenshot/addRecipe.png)
-  ![](./readmeDocumentation/screenshot/updateRecipe.png)
- 
+    
  ## My Account
 
  ![](readmeDocumentation/screenshots/my-account.png)
 
  * Profile
 
- * In this section,the user has the opportunity to contact us directly or reach out to make enquiry.
+ * Under this page you will find the shipping address and all the items and their status.It also gives the user the ability to add address.
 
- ![](./readmeDocumentation/screenshot/addRecipeForm.png)
+ ![](readmeDocumentation/screenshots/profile.png)
 
  * Cart
 
- * In this section,the user has the opportunity to contact us directly or reach out to make enquiry.
-
- ![](./readmeDocumentation/screenshot/addRecipeForm.png)
+ * Under this Section you can see the products added to the cart,you can see the shippping address that are on your profile,you can also see a button that redirect you to continue shopping and also all the payment option available.
+   
+ ![](readmeDocumentation/screenshots/cart.png)
+ ![](readmeDocumentation/screenshots/checkout.png)
 
 
  * Orders
@@ -218,7 +203,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  * In this section,the user can reset his password.
 
- ![](./readmeDocumentation/screenshot/addRecipeForm.png)
+ ![](readmeDocumentation/screenshots/change-password.png)
 
 
 </details>
@@ -229,13 +214,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  ![](./readmeDocumentation/screenshot/coloursUsed.png)
 
-  * The colour scheme was chosen by the background image of the project. I want to choose golden-brown colours so that they will blend with the background image.
-
- For the navigation bar and footer, I used --earthyellow: #e6b56d;,--copper: #a67732; and  --Sunset: #f2c88b.
- For all buttons that exist in the project I used  --smokyblack: #131200; and --copper: #a67732;
- For the jumbotron background colour I used --Sunset: #f2c88b.
- For paragraph and heading I used --smokyblack: #131200;
- For pagination I used background colour --copper: #a67732; and for border-colour --Sunset: #f2c88b.
+  * The colour scheme was chosen by the background image of the project. I 
 
 ## Typography
 
