@@ -2,7 +2,7 @@
 
 ## [](https://github.com/diddyjax19/NestIT-Phonestore--pp4#)[![](readmeDocumentation/screenshots/responsive.png)](readmeDocumentation/screenshots/responsive.png)
 
-The NestIt Phone Store is  regular store where people can go to browse and order from a variety of phone and accesories.The store is open 24 hrs with staffs processing order to meet the clients need, it also as a place where customers can register and be part of the community to receive deals and promotions. Through the The NestIt store, users can check thier orders and the status of the delivery,they are also aware of where the good are coming from.
+The NestIt Phone Store is  regular store where people can go to browse and order from a variety of phone and accesories.The store is open 24 hrs with staffs processing order to meet the clients need, it also as a place where customers can register and be part of the community to receive deals and promotions.Through the The NestIt store, users can check thier orders and the status of the delivery,they are also aware of where the good are coming from it.
 
 A simple online market place built with the Django Framework using HTML, CSS and Javascript
 
