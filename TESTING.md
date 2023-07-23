@@ -71,47 +71,68 @@
      * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
  
- * Add Recipe page
+ * Categories
      * Desktop
-   ![](./readmeDocumentation/screenshot/addRecipePageDesktop.png)
-     * Mobile 
-   ![](./readmeDocumentation/screenshot/addRecipePageMobile.png)
+   ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+     * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
 
-  * Recipe Library
-     * Desktop 
-   ![](./readmeDocumentation/screenshot/recipeLibraryDesktop.png)
-     * Mobile 
-   ![](./readmeDocumentation/screenshot/recipeLibraryPageMobile.png)
+  * About 
+    * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
 
-  * Register Page 
-     * Desktop 
-   ![](./readmeDocumentation/screenshot/registerPageDesktop.png)
-     * Mobile 
-   ![](./readmeDocumentation/screenshot/registerPageMobile.png)
+
+  * Contact Page 
+     * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+     * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+
   
-  * Each Recipe Page
-     * Desktop 
-   ![](./readmeDocumentation/screenshot/eachRecipePageDesktop.png)
-     * Mobile 
-   ![](./readmeDocumentation/screenshot/eachRecipePageMobile.png)
+  * Cart Page
+ * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+
   
-  * Update Recipe Page
-     * Desktop 
-   ![](./readmeDocumentation/screenshot/updatePageDesktop.png)
-     * Mobile 
-   ![](./readmeDocumentation/screenshot/updatePageMobile.png)
+  * Profile
+  * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
 
-   * Log In
-     * Desktop 
-   ![](./readmeDocumentation/screenshot/logInPageDesktop.png)
-     * Mobile 
-   ![](./readmeDocumentation/screenshot/logInPageMobile.png)
 
-   * Log Out
-     * Desktop 
-   ![](./readmeDocumentation/screenshot/logOutDesktop.png)
-     * Mobile 
-   ![](./readmeDocumentation/screenshot/logOutMobile.png)
+   * Orders
+ * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+
+
+   * Change Password Page
+  * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+
+
+   * SignUp Page
+   * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/signup-lighthouse-web.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/signup-lighthouse-mobile.png)
+
+
+
+  * LogIn Page
+ * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/login-lighthouse-web.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/login-lighthouse-mobile.png)
+
 
   </details>
 
