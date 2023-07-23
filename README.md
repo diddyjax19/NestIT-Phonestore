@@ -56,7 +56,7 @@ The NestIt Phone Store is  regular store where people can go to browse and order
 My Project was developed with agile planning. I had three columns: To Do, In Progress, and Done. This helps me to manage my project and helps me to be more flexible and adaptable to changes.
 Below are the User stories that were used in creating this project. I add 8 EPIC with labels MUST, SHOULD-HAVE.
 
-[Link for User stories](https://github.com/Aliona83/project4--test/issues)
+[Link for User stories](https://github.com/diddyjax19/NestIT-Phonestore--pp4/issues)
 
 <details>
 <summary>Click to see more</summary>
