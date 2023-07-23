@@ -75,21 +75,44 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
     * As a Site User I want to update my cart.
     * As a Site User I want to delete cart from my cart page. 
 
-4 EPIC - Create Recipe Form 
+4 EPIC - Categories Page 
 
-   * As a Site User I want to have a recipe form where I will be able to add all ingredients, and instructions, sort by meal type and be able to add an image of the recipe.
+   * As a Site User I want to be able to navigate the categories page,This page has an sub-section that houses all the categories and products that are on the website.
 
-5 EPIC - Recipe page
+5 EPIC - About page
     
-   * As a Site User I want to have a separate page where I will be able to see all recipes that I save.
+   * As a Site User I want to have a page where the user can read about the website and it founder.
 
-6 EPIC - Pagination 
+6 EPIC - Contact Page
 
-   * As a Site User I want to see a number of pages in recipe page. 
+   * As a Site User I want to contact the website owner directly. In this Section the User can fil a form and leave a request.
 
-7 EPIC - Search Bar 
+7 EPIC - Cart Page 
    
-   * As a Site User I want to be able search my recipes by ingredients and by type of meals(breakfast, lunch and dinner)
+   * As a Site User I want to be able view the products added to the cart,increase the quantity of the product,delete the product in the cart,view the shipping address before checkout and the various payment options available.
+
+8 EPIC - Profile Page 
+   
+   * As a Site User I want to be able login to the website and be able to add new shipping address,view the address on file and view the orders on the website.
+
+9 EPIC - Orders Page 
+   
+   * As a Site User I want to be able view all the orders placed on my account and thier respective status.
+
+10 EPIC - Change Password Page 
+   
+   * As a Site User I want to be able to change my password.
+
+11 EPIC - Create Account Page 
+   
+   * As a Site User I want to be able to create an account,with all the neccessary inofrmations.
+
+12 EPIC - Log-in Page 
+   
+   * As a Site User I want to be able login to the website,with the right credentials .  
+
+
+
 </details>
 
 # Features  
@@ -232,8 +255,20 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 ***
   * Django -crispy-forms - Used to render forms throughout the project.
   * Django - allauth - Allows authentication, registration and account management in Django.
-  * Gunicorn - a Python WSGI HTTP Server for UNIX
-  * Dj3-Cloudinary-storage - Facilitates integration with Cloudinary by implementing Django Storage API.
+  * django-environ - is the Python package that allows you to use Twelve-factor methodology to configure your Django application with environment variables.
+  * mySqlclient - Python interface to MySQL
+  * sqlparse - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements. 
+  * pytz - This library allows accurate and cross platform timezone calculations using Python 2.4 or higher.
+  * PyNaCl -PyNaCl is a Python binding to libsodium, which is a fork of the Networking and Cryptography library. 
+  * pycparser- pycparser is a complete parser of the C language, written in pure Python using the PLY parsing library. It parses C code into an AST and can serve as a front-end for C compilers or analysis tools.
+  * Pillow -The Python Imaging Library adds image processing capabilities to your Python interpreter.
+  * Paramiko -Paramiko is a pure-Python 1 (3.6+) implementation of the SSHv2 protocol 2, providing both client and server functionality. It provides the foundation for the high-level SSH library Fabric, which is what we recommend you use for common client use-cases such as running remote shell commands or transferring files.
+  * bcrypt - Acceptable password hashing for your software and your servers
+  * Asgiref - ASGI is a standard for Python asynchronous web apps and servers to communicate with each other, and positioned as an asynchronous successor to WSGI.
+  * Cryptography - A set of primitives for easily encrypting data in Django, wrapping the Python Cryptography library
+  * cffi - C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.
+  * sshtunnel- establishes a connection between a port on the local machine and a main node in HDInsight 
+
 
 
 # Testing 
