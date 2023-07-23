@@ -182,18 +182,33 @@
 | Categories Page| For this test, I want to make sure that when you clicked the full menu of all categories.|Pass |
 | View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 | Save new recipe | Recipe was successfully saved with the image. and I filled out all the fields| Pass|
-|                          Recipe library                                                |
-| Search bar functionality | Enter different ingredients and meal types, all recipes were found from the recipe library that was searched in the search bar| Pass |
-| Pagination | Test all the links should be functional by clicking on the numbers, next and previous buttons | Pass |
-| View each recipe | By clicking on a recipe title link should open the recipe with full instructions and ingredients.| Pass |
-| Delete recipe| By clicking on the delete button the User should be able to delete the recipe from the recipe library | Pass |
-| Update recipe | By clicking on the button update recipe user will be able to make changes to the recipe and successfully save it| Pass|
-| Like button | By clicking on the like button(heart) user will be able to like the recipe which he likes, heart has to be red if a user liked the recipe| Pass|
-| Unlike button | Click on the heart button to unlike the recipe, and the button turns to unlike | Pass|
-| Check how the page works on small devices | Check that page looks good and is able to use on tablets and phones| Pass |
-| Success messages |After deleting, update and adding recipe User gets messages/feedback| Pass |
-|Check authentication | User able to Sign Up, log in and log out | Pass |
-| Security App | Without login, I wanted to go to the add recipe page, but I was redirected to the login page| Pass |
+|                         About  Page                     |
+| About Page| For this test, I want to make sure that when you clicked the About link.|Pass |
+| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+
+|                         Contact  Page                     |
+| Contact Page| For this test, I want to make sure that when you clicked the Contact link.|Pass |
+| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+
+|                        Cart Page                     |
+| Contact Page| For this test, I want to make sure that when you clicked the Contact link.|Pass |
+| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+
+|                         Profile Page                     |
+| Profile Page| For this test, I want to make sure that when you clicked the Profile link.|Pass |
+| Add Address | For this test, I want to make sure that when you clicked on add address they are directed to another Page.|Pass |
+| Delete Address| For this test, I want to make sure that when you an address it stays deleted.|Pass |
+| Address form| For this test, I want to make sure that when the user has fill his address and all the neccessary area,the changes are able to save and update in the profile page.|Pass |
+| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+
+|                         Orders                    |
+| Orders Page| For this test, I want to make sure that when you clicked the Orders link.|Pass |
+| View form on different sizes of devices | Check how will look Order form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+
+|                         Change Password                     |
+| Change Password Page| For this test, I want to make sure that when you clicked the Change Password link.|Pass |
+| Changing the password | This check was to verify that after trying the current password and typing the new password twice the User can save this changes. |Pass |
+| View form on different sizes of devices | Check how will look Change password form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
 </details>
 
