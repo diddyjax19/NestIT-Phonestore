@@ -72,59 +72,59 @@
   ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
  
  * Categories
-     * Desktop
-   ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
-     * Mobile
-  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+    * Desktop
+  ![Desktop](readmeDocumentation/pythonanywhere/category-lighthouse-web.png)
+    * Mobile
+  ![Mobile](readmeDocumentation/pythonanywhere/category-lighthouse-mobile.png)
+   
 
   * About 
     * Desktop
-  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
-    * Mobile
-  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+ ![Desktop](readmeDocumentation/pythonanywhere/about-us-lighthouse-web.png)
+     * Mobile
+ ![Mobile](readmeDocumentation/pythonanywhere/about-us-lighthouse-mobile.png)
 
 
   * Contact Page 
      * Desktop
-  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+  ![Desktop](readmeDocumentation/pythonanywhere/conntact-lighthouse-web.png)
      * Mobile
-  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+  ![Mobile](readmeDocumentation/pythonanywhere/conntact-lighthouse-mobile.png)
 
   
   * Cart Page
  * Desktop
-  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+  ![Desktop](readmeDocumentation/pythonanywhere/cart-lighthouse-web.png)
     * Mobile
-  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+  ![Mobile](readmeDocumentation/pythonanywhere/cart-lighthouse-mobile.png)
 
   
   * Profile
   * Desktop
-  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+  ![Desktop](readmeDocumentation/pythonanywhere/profile-lighthouse-web.png)
     * Mobile
-  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+  ![Mobile](readmeDocumentation/pythonanywhere/profile-lighthouse-mobile.png)
 
 
    * Orders
  * Desktop
-  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+  ![Desktop](readmeDocumentation/pythonanywhere/order-lighthouse-web.png)
     * Mobile
-  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+  ![Mobile](readmeDocumentation/pythonanywhere/order-lighthouse-mobile.png)
 
 
    * Change Password Page
   * Desktop
-  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
+  ![Desktop](readmeDocumentation/pythonanywhere/change-password-lighthouse-web.png)
     * Mobile
-  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
+  ![Mobile](readmeDocumentation/pythonanywhere/change-password-lighthouse-mobile.png)
 
 
-   * SignUp Page
-   * Desktop
+   * SignUp Page 
+    * Desktop
   ![Desktop](readmeDocumentation/pythonanywhere/signup-lighthouse-web.png)
     * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/signup-lighthouse-mobile.png)
-
 
 
   * LogIn Page
