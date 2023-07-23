@@ -5,8 +5,7 @@
    * [PYTHON](#python)
    * [LIGHTHOUSE](#lighthouse)
    * [GTMETRIX](#gtmetrix)
-   * [Ax Dev Tools](#ax-dev-tools)
-
+  
  * [Device Testing](#device-testing)
  * [Manual Testing](#manual-testing)
  * [Bugs](#bugs)
@@ -68,9 +67,9 @@
 
  * Home Page
      * Desktop
-  ![Desktop](./readmeDocumentation/screenshot/homePageDesktop.png)
+  ![Desktop](readmeDocumentation/pythonanywhere/web-lighthouse.png)
      * Mobile
-  ![Mobile](./readmeDocumentation/screenshot/homePageMobile.png)
+  ![Mobile](readmeDocumentation/pythonanywhere/mobile-lighthouse.png)
  
  * Add Recipe page
      * Desktop
@@ -117,16 +116,11 @@
   </details>
 
    ## GTMETRIX 
-   ![](./readmeDocumentation/screenshot/gtMetrixTest.png)
+   ![](readmeDocumentation/pythonanywhere/gtmatrix.png)
 
-   ## Ax Dev Tools
+  
 
-   * All pages had been checked with AX Dev Tools
-
-   ![](./readmeDocumentation/screenshot/axDevTool.png)
-
-
-   # Device Testing
+    # Device Testing
      ***
 
      The project has been checked on these devices :
@@ -154,7 +148,7 @@
 | Logo          | Clicked on Logo to check or redirect to the home page| Pass |
 | Home button   | Clicked on the Home button from different pages to check or redirect to the home page| Pass  | 
 | Categories   | Clicked on the categories and was redirected to the categories section | Pass |
-| Register      | When clicking on the register link, brings the User to the registration page | Pass |
+| Sign-Up     | When clicking on the Sign-Up link, brings the User to the registration page | Pass |
 | Small screens |  Checked that on smaller devices changes to the burger menu | Pass |
 | About US      | Clicked About US and was redirected to the page with brief info on the | Pass | 
 | Log In        | Clicked on the log-in link that will bring the User to the login page  | Pass |
@@ -163,9 +157,9 @@
 | Small screens |       Checked that all media links are visible on small devices | Pass |                                |
 | Media  Links  | Clicked on each media link opens a new page   | Pass |
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
-|                     Add Recipe Page                     |
-| Try to create a new recipe with blank fields | For this test, I want to make sure that empty fields won't let to save the recipe and return the user to empty fields.|Pass |
-| View form on different sizes of devices | Check how will look add recipe form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+|                    Categories Page                     |
+| Categories Page| For this test, I want to make sure that when you clicked the full menu of all categories.|Pass |
+| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 | Save new recipe | Recipe was successfully saved with the image. and I filled out all the fields| Pass|
 |                          Recipe library                                                |
 | Search bar functionality | Enter different ingredients and meal types, all recipes were found from the recipe library that was searched in the search bar| Pass |
