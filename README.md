@@ -513,6 +513,10 @@ And
  6. Run `python manage.py loaddata 'mydb.json'`
 
 
+
+ to view the secret details 
+
+
 # Technologies Used
 
 * [GitHub](https://github.com/Aliona83/project4--test) - is Used in conjunction with Gitpod as the code editor, to store the project and utilise git version control.
