@@ -256,7 +256,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
   * Django -crispy-forms - Used to render forms throughout the project.
   * Django - allauth - Allows authentication, registration and account management in Django.
   * django-environ - is the Python package that allows you to use Twelve-factor methodology to configure your Django application with environment variables.
-  * mySqlclient - Python interface to MySQL
+  * mySqlclient - Python interface to MySQL.
   * sqlparse - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements. 
   * pytz - This library allows accurate and cross platform timezone calculations using Python 2.4 or higher.
   * PyNaCl -PyNaCl is a Python binding to libsodium, which is a fork of the Networking and Cryptography library. 
