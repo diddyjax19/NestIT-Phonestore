@@ -8,7 +8,7 @@
   
  * [Device Testing](#device-testing)
  * [Manual Testing](#manual-testing)
- * [Bugs](#bugs)
+
 
 # Validator Testing
 <details>
@@ -178,53 +178,49 @@
 | Small screens |       Checked that all media links are visible on small devices | Pass |                                |
 | Media  Links  | Clicked on each media link opens a new page   | Pass |
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
+
 |                    Categories Page                     |
 | Categories Page| For this test, I want to make sure that when you clicked the full menu of all categories.|Pass |
+| All Categories Button| For this test, I want to make sure that when you clicked the full menu of all categories.|Pass |
+| Sub-Category Overview| For this test, I want to make sure that when you click the product ,it open up an overview of all the different products in that sub-Category.|Pass |
+| Products| For this test, I want to make sure that when you click on a product,you are redirected to a Products Overview.|Pass |
+| Product Overview| For this test, I have a clear overview of all details of the product with descriptions,ratings and add-cart button.|Pass |
 | View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
-| Save new recipe | Recipe was successfully saved with the image. and I filled out all the fields| Pass|
+
+
 |                         About  Page                     |
 | About Page| For this test, I want to make sure that when you clicked the About link.|Pass |
-| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+| View form on different sizes of devices | Check how will look about page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
 |                         Contact  Page                     |
 | Contact Page| For this test, I want to make sure that when you clicked the Contact link.|Pass |
-| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+| View form on different sizes of devices | Check how will look contact form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+| Save Contact | I filled out all the fields and Contact was successfully. | Pass|
 
 |                        Cart Page                     |
-| Contact Page| For this test, I want to make sure that when you clicked the Contact link.|Pass |
-| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+| Cart Page| For this test, I want to make sure that when you clicked the Cart link.|Pass |
+| Shopping Cart| For this test, I want to make sure that when User has added  to the cart from the categories folder they can be able to see,add,delete each order on the cart.|Pass |
+| Continue Shipping| For this test, I want to make sure that when you clicked the Continue shipping button under the shopping card the user will be redirected to the Home page.|Pass |
+| Cart Total| This section shows the user what selections they have chosen and also shows the shipping address available on file.Also it allow the user to select from variety of shipping address avialable. |Pass |
+| Payment Option| For this test, I want to make sure that when you clicked any desired payment option the user can be redirected to a vendor of thier choice to fill out the necessary informations required.|Pass |
+| Home button| For this test, I want to make sure that when you clicked the home button is clicked in this section the user is directed to the home page.|Pass |
+| View form on different sizes of devices | Check how will look cart form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
 |                         Profile Page                     |
 | Profile Page| For this test, I want to make sure that when you clicked the Profile link.|Pass |
 | Add Address | For this test, I want to make sure that when you clicked on add address they are directed to another Page.|Pass |
 | Delete Address| For this test, I want to make sure that when you an address it stays deleted.|Pass |
 | Address form| For this test, I want to make sure that when the user has fill his address and all the neccessary area,the changes are able to save and update in the profile page.|Pass |
-| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+| View form on different sizes of devices | Check how will look Profile page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
 |                         Orders                    |
 | Orders Page| For this test, I want to make sure that when you clicked the Orders link.|Pass |
-| View form on different sizes of devices | Check how will look Order form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+| View form on different sizes of devices | Check how will look Order page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
 |                         Change Password                     |
 | Change Password Page| For this test, I want to make sure that when you clicked the Change Password link.|Pass |
-| Changing the password | This check was to verify that after trying the current password and typing the new password twice the User can save this changes. |Pass |
+| Save Password | I filled out all the fields (Old Password and New Password) and password was successfully saved. | Pass|
 | View form on different sizes of devices | Check how will look Change password form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
+
 </details>
-
-
-# Bugs 
-***
-
-| Bug      |       What  Issue   |       How   Issue     Fixed      |        
-|:--------------|:--------------------------- |:---------------------------  |
-| Wrong Url path| When I click create recipe was redirecting to add recipe page | Issue fixed by changing right URL path |
-| Couldn't see any add recipes in all_recipe page | Page was empty whit out any recipes | Issue was wrong spell object variable this had issue by iterate through the list of objects| 
-| Page not found (404)
-No recipes match the given query| When I want to like recipe get error no recipes match query | Fixed issue by check the query parameters|
-| DisallowedHost at /add _recipe| During the work on the project changed frequently HTTP_HOST header | Was adding the right HTTP_HOST header to ALLOWED_HOSTS|
-| Success message | After the user log in or log out success massage appeared on page all_recipes | Move to display messages tag from all_recipes to base.html file|
-| Like button | Issue was that when I like one recipe I liked all recipes what was on that page | Made decision to move the like button from all_recipes to each recipe and like each recipe separately|
-
-## Unfix Bugs 
-There are no unfixed bugs.
