@@ -1,64 +1,9 @@
 # Table of Contents
- * [Validator Testing](#validator-testing)
-   * [HTML](#html-validator)
-   * [CSS](#css-validator)
-   * [PYTHON](#python)
+
    * [LIGHTHOUSE](#lighthouse)
    * [GTMETRIX](#gtmetrix)
-  
  * [Device Testing](#device-testing)
  * [Manual Testing](#manual-testing)
-
-
-# Validator Testing
-<details>
-<summary>Click to see more</summary>
-
-  ## HTML Validator
-
-  * Home Page
-    ![](./readmeDocumentation/screenshot/homePageValidator.png)
-    * Add recipe page
-    ![](./readmeDocumentation/screenshot/addRecipeValidator.png)
-    * Recipe Library
-    ![](./readmeDocumentation/screenshot/allRecipesPageValidator.png)
-    * Each Recipe Page
-    ![](./readmeDocumentation/screenshot/addRecipeValidator.png)
-    * Update Recipe page
-    ![](./readmeDocumentation/screenshot/updateRecipeValidator.png)
-    * Log In
-    ![](./readmeDocumentation/screenshot/logInValidator.png)
-    * Log Out
-    ![](./readmeDocumentation/screenshot/logOutValidator.png)
-    * Register page
-    ![](./readmeDocumentation/screenshot/registerValidator.png)
-
- ## CSS Validator
-
-  * Css 
-  ![](./readmeDocumentation/screenshot/cssValidator.png)
-
-  ## Python
-
- Add_recipe folder 
- All available files have been checked
-  * form.py
-  ![](./readmeDocumentation/screenshot/formFile.png)
-  * model.py
-  ![](./readmeDocumentation/screenshot/modelfile.png)
-  * url.py
-  ![](./readmeDocumentation/screenshot/urlFile.png)
-
-  project4 folder
-   * url.py
-   ![](./readmeDocumentation/screenshot/projectUrl.png)
-  
-  recipe folder
-    * url.py
-    ![](./readmeDocumentation/screenshot/recipeUrl.png)
-    * view.py
-    ![](./readmeDocumentation/screenshot/recipeView.png)
-</details>
 
 ## Lighthouse
 
@@ -179,24 +124,60 @@
 | Media  Links  | Clicked on each media link opens a new page   | Pass |
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
-|                    Categories Page                     |
-| Categories Page| For this test, I want to make sure that when you clicked the full menu of all categories.|Pass |
-| All Categories Button| For this test, I want to make sure that when you clicked the full menu of all categories.|Pass |
-| Sub-Category Overview| For this test, I want to make sure that when you click the product ,it open up an overview of all the different products in that sub-Category.|Pass |
-| Products| For this test, I want to make sure that when you click on a product,you are redirected to a Products Overview.|Pass |
-| Product Overview| For this test, I have a clear overview of all details of the product with descriptions,ratings and add-cart button.|Pass |
-| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+
+| Feature       |           Test Performed    |             Result           |        
+|:--------------|:--------------------------- |:---------------------------  |
+|                        Categories                                      |
+| Categories Page      | For this test, I want to make sure that when you clicked the full menu of all categories.| Pass |
+| All Categories Button   | For this test, I want to make sure that when you clicked the full menu of all categories.| Pass  | 
+| Sub-Category Overview  | For this test, I want to make sure that when you click the product ,it open up an overview of all the different products in that sub-Category.  | Pass |
+| Products    | For this test, I want to make sure that when you click on a product,you are redirected to a Products Overview. | Pass |
+| Products Overview|  For this test, I have a clear overview of all details of the product with descriptions,ratings and add-cart button. | Pass |
+| View form on different sizes of devices | Check how will look categories form on tablets and phones, make sure all form fields are easy to see and use | Pass | 
+| Log In        | Clicked on the log-in link that will bring the User to the login page  | Pass |
+| Log Out       | Clicked on the log-out link that will bring the User to log out page | Pass |
+|                                                         Footer                      |
+| Small screens |       Checked that all media links are visible on small devices | Pass |                                |
+| Media  Links  | Clicked on each media link opens a new page   | Pass |
+| Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
-|                         About  Page                     |
-| About Page| For this test, I want to make sure that when you clicked the About link.|Pass |
-| View form on different sizes of devices | Check how will look about page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
+| Feature       |           Test Performed    |             Result           |        
+|:--------------|:--------------------------- |:---------------------------  |
+|                    About US Page                                   |
+| About US   | For this test, I want to make sure that when you clicked the About link.| Pass |
+| View form on different sizes of devices | Check how will look about Us form on tablets and phones, make sure all form fields are easy to see and use | Pass | 
+| Log In        | Clicked on the log-in link that will bring the User to the login page  | Pass |
+| Log Out       | Clicked on the log-out link that will bring the User to log out page | Pass |
+|                                                         Footer                      |
+| Small screens |       Checked that all media links are visible on small devices | Pass |                                |
+| Media  Links  | Clicked on each media link opens a new page   | Pass |
+| Footer is on all pages      | Check all pages how the footer looks   | Pass |
+
+
+
+
+
+
+
+
+| Feature       |           Test Performed    |             Result           |        
+|:--------------|:--------------------------- |:---------------------------  |
 |                         Contact  Page                     |
 | Contact Page| For this test, I want to make sure that when you clicked the Contact link.|Pass |
-| View form on different sizes of devices | Check how will look contact form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 | Save Contact | I filled out all the fields and Contact was successfully. | Pass|
+| View form on different sizes of devices | Check how will look contact form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
+| Log In        | Clicked on the log-in link that will bring the User to the login page  | Pass |
+| Log Out       | Clicked on the log-out link that will bring the User to log out page | Pass |
+|                                                         Footer                      |
+| Small screens |       Checked that all media links are visible on small devices | Pass |                                |
+| Media  Links  | Clicked on each media link opens a new page   | Pass |
+| Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
+
+| Feature       |           Test Performed    |             Result           |        
+|:--------------|:--------------------------- |:---------------------------  |
 |                        Cart Page                     |
 | Cart Page| For this test, I want to make sure that when you clicked the Cart link.|Pass |
 | Shopping Cart| For this test, I want to make sure that when User has added  to the cart from the categories folder they can be able to see,add,delete each order on the cart.|Pass |
@@ -206,6 +187,9 @@
 | Home button| For this test, I want to make sure that when you clicked the home button is clicked in this section the user is directed to the home page.|Pass |
 | View form on different sizes of devices | Check how will look cart form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
+
+| Feature       |           Test Performed    |             Result           |        
+|:--------------|:--------------------------- |:---------------------------  |
 |                         Profile Page                     |
 | Profile Page| For this test, I want to make sure that when you clicked the Profile link.|Pass |
 | Add Address | For this test, I want to make sure that when you clicked on add address they are directed to another Page.|Pass |
@@ -213,10 +197,17 @@
 | Address form| For this test, I want to make sure that when the user has fill his address and all the neccessary area,the changes are able to save and update in the profile page.|Pass |
 | View form on different sizes of devices | Check how will look Profile page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
+
+
+| Feature       |           Test Performed    |             Result           |        
+|:--------------|:--------------------------- |:---------------------------  |
 |                         Orders                    |
 | Orders Page| For this test, I want to make sure that when you clicked the Orders link.|Pass |
 | View form on different sizes of devices | Check how will look Order page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
+
+| Feature       |           Test Performed    |             Result           |        
+|:--------------|:--------------------------- |:---------------------------  |
 |                         Change Password                     |
 | Change Password Page| For this test, I want to make sure that when you clicked the Change Password link.|Pass |
 | Save Password | I filled out all the fields (Old Password and New Password) and password was successfully saved. | Pass|
