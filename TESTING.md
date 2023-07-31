@@ -1,9 +1,66 @@
 # Table of Contents
-
+ * [Validator Testing](#validator-testing)
+   * [HTML](#html-validator)
+   * [CSS](#css-validator)
+   * [PYTHON](#python)
    * [LIGHTHOUSE](#lighthouse)
    * [GTMETRIX](#gtmetrix)
+   * [Ax Dev Tools](#ax-dev-tools)
+
  * [Device Testing](#device-testing)
  * [Manual Testing](#manual-testing)
+ * [Bugs](#bugs)
+
+# Validator Testing
+<details>
+<summary>Click to see more</summary>
+
+  ## HTML Validator
+
+  * Home Page
+    ![](./readmeDocumentation/screenshot/homePageValidator.png)
+    * Category Page
+    ![](./readmeDocumentation/screenshot/addRecipeValidator.png)
+    * Cart Page
+    ![](./readmeDocumentation/screenshot/updateRecipeValidator.png)
+    * Profile Page
+    ![](./readmeDocumentation/screenshot/updateRecipeValidator.png)
+     * Order Page
+    ![](./readmeDocumentation/screenshot/updateRecipeValidator.png)
+    * Log In
+    ![](./readmeDocumentation/screenshot/logInValidator.png)
+    * Log Out
+    ![](./readmeDocumentation/screenshot/logOutValidator.png)
+    * Sign-Up Page
+    ![](./readmeDocumentation/screenshot/registerValidator.png)
+
+ ## CSS Validator
+
+  * Css 
+  ![](./readmeDocumentation/screenshot/cssValidator.png)
+
+  ## Python
+
+ Add_recipe folder 
+ All available files have been checked
+  * form.py
+  ![](./readmeDocumentation/screenshot/formFile.png)
+  * model.py
+  ![](./readmeDocumentation/screenshot/modelfile.png)
+  * url.py
+  ![](./readmeDocumentation/screenshot/urlFile.png)
+
+  project4 folder
+   * url.py
+   ![](./readmeDocumentation/screenshot/projectUrl.png)
+  
+  recipe folder
+    * url.py
+    ![](./readmeDocumentation/screenshot/recipeUrl.png)
+    * view.py
+    ![](./readmeDocumentation/screenshot/recipeView.png)
+</details>
+
 
 ## Lighthouse
 
@@ -22,27 +79,23 @@
     * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/category-lighthouse-mobile.png)
    
-
   * About 
     * Desktop
  ![Desktop](readmeDocumentation/pythonanywhere/about-us-lighthouse-web.png)
      * Mobile
  ![Mobile](readmeDocumentation/pythonanywhere/about-us-lighthouse-mobile.png)
 
-
   * Contact Page 
      * Desktop
   ![Desktop](readmeDocumentation/pythonanywhere/conntact-lighthouse-web.png)
      * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/conntact-lighthouse-mobile.png)
-
   
   * Cart Page
  * Desktop
   ![Desktop](readmeDocumentation/pythonanywhere/cart-lighthouse-web.png)
     * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/cart-lighthouse-mobile.png)
-
   
   * Profile
   * Desktop
@@ -50,13 +103,11 @@
     * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/profile-lighthouse-mobile.png)
 
-
    * Orders
  * Desktop
   ![Desktop](readmeDocumentation/pythonanywhere/order-lighthouse-web.png)
     * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/order-lighthouse-mobile.png)
-
 
    * Change Password Page
   * Desktop
@@ -64,13 +115,11 @@
     * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/change-password-lighthouse-mobile.png)
 
-
    * SignUp Page 
     * Desktop
   ![Desktop](readmeDocumentation/pythonanywhere/signup-lighthouse-web.png)
     * Mobile
   ![Mobile](readmeDocumentation/pythonanywhere/signup-lighthouse-mobile.png)
-
 
   * LogIn Page
  * Desktop
@@ -154,11 +203,6 @@
 | Small screens |       Checked that all media links are visible on small devices | Pass |                                |
 | Media  Links  | Clicked on each media link opens a new page   | Pass |
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
-
-
-
-
-
 
 
 

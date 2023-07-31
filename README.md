@@ -44,6 +44,8 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
   * [Technologies Used](https://github.com/diddyjax19/NestIT-Phonestore#technologies-used)
   * [Security Features](https://github.com/diddyjax19/NestIT-Phonestore#secirity-features)
   * [Credit](https://github.com/diddyjax19/NestIT-Phonestore#credits)
+  * [Acknowledgements](https://github.com/diddyjax19/NestIT-Phonestore#acknowledgements)
+
 
 # Project Goals
 ***
@@ -585,4 +587,6 @@ And
 * [E-commerce website with django](https://www.youtube.com/watch?v=YZvRrldjf1Y)
 * [Codecademy](https://www.codecademy.com/?g_network=g&g_productchannel=&g_adid=528849219280&g_locinterest=&g_keyword=codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-41065460761&g_ifcreative=&g_campaign=account&g_locphysical=1007835&g_adgroupid=70492864474&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1726903838&g_ifproduct=&utm_id=t_kwd-41065460761:ag_70492864474:cp_1726903838:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy&utm_campaign=INTL_Brand_Exact&utm_content=528849219280&g_adtype=search&g_acctid=243-039-7011&)
 
+# Acknowledgements
 
+Thank you to myy mentor Daisy for helping me along the way and tutor support team
