@@ -40,9 +40,10 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
   * [Libraries And Installed Packages](https://github.com/diddyjax19/NestIT-Phonestore#libraries-and-installed-packages)
   * [Testing](https://github.com/diddyjax19/NestIT-Phonestore#testing)
 
-  * [Deployment](#deployment) 
-  * [Technologies Used](#technologies-used)
-  * [Credit](#credits)
+  * [Deployment](https://github.com/diddyjax19/NestIT-Phonestore#deployment) 
+  * [Technologies Used](https://github.com/diddyjax19/NestIT-Phonestore#technologies-used)
+  * [Security Features](https://github.com/diddyjax19/NestIT-Phonestore#secirity-features)
+  * [Credit](https://github.com/diddyjax19/NestIT-Phonestore#credits)
 
 # Project Goals
 ***
@@ -548,7 +549,6 @@ And
  6. Run `python manage.py loaddata 'mydb.json'`
 
 
-
 # Technologies Used
 
 * [GitHub](https://github.com/Aliona83/project4--test) - is Used in conjunction with Gitpod as the code editor, to store the project and utilise git version control.
@@ -566,7 +566,16 @@ And
 * [Pexel](https://www.pexels.com/search/free/) - All mages were taken from this website.
 * [Color palette](https://coolors.co/) - Select colors for website.
 * [Ax Dev Tools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - Find and fix more accessibility issues during website development with axe DevTools. 
-     
+
+# Security Features
+
+* Users can not add to cart with first Signing in or Signing up..
+
+* Error messages for not adding a shipping address to file. 
+
+* Error messages for incorrect inputs on sign in/sign up form
+
+
 # Credits    
 * [Stack Overflow](https://try.stackoverflow.co/explore-teams/?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278309&_bk=stack+overflow&_bm=p&_bn=g&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmF2ghGSQXiKfjiQcnpRL_87pacwew2yt-jYDV9_z56sxtUF-BMthsRoCB7oQAvD_BwE)
 * [BBC good food](https://www.bbcgoodfood.com/)
@@ -575,3 +584,5 @@ And
 * [LinkedIn Learning](https://www.linkedin.com/learning/paths/become-a-django-developer)
 * [E-commerce website with django](https://www.youtube.com/watch?v=YZvRrldjf1Y)
 * [Codecademy](https://www.codecademy.com/?g_network=g&g_productchannel=&g_adid=528849219280&g_locinterest=&g_keyword=codecademy&g_acctid=243-039-7011&g_adtype=&g_keywordid=kwd-41065460761&g_ifcreative=&g_campaign=account&g_locphysical=1007835&g_adgroupid=70492864474&g_productid=&g_source={sourceid}&g_merchantid=&g_placement=&g_partition=&g_campaignid=1726903838&g_ifproduct=&utm_id=t_kwd-41065460761:ag_70492864474:cp_1726903838:n_g:d_c&utm_source=google&utm_medium=paid-search&utm_term=codecademy&utm_campaign=INTL_Brand_Exact&utm_content=528849219280&g_adtype=search&g_acctid=243-039-7011&)
+
+
