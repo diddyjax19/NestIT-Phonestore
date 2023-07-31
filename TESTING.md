@@ -39,7 +39,7 @@
 
   ## Python
 
- PhoneStore folder 
+ Store folder 
  All available files have been checked
   * form.py
   ![](./readmeDocumentation/screenshot/formFile.png)
@@ -47,12 +47,8 @@
   ![](./readmeDocumentation/screenshot/modelfile.png)
   * url.py
   ![](./readmeDocumentation/screenshot/urlFile.png)
-
-  project4 folder
-   * url.py
-   ![](./readmeDocumentation/screenshot/projectUrl.png)
-  
-  Store 
+ 
+  Phones Store
     * url.py
     ![](./readmeDocumentation/screenshot/recipeUrl.png)
     * view.py
@@ -154,6 +150,7 @@
 <details>
 <summary>Click to see more</summary>
 
+1)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -172,6 +169,8 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
+2)
+
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
 |                        Categories                                      |
@@ -189,6 +188,7 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
+3)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -203,6 +203,7 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
+4)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -218,6 +219,8 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
+5)
+
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
 |                        Cart Page                     |
@@ -229,6 +232,7 @@
 | Home button| For this test, I want to make sure that when you clicked the home button is clicked in this section the user is directed to the home page.|Pass |
 | View form on different sizes of devices | Check how will look cart form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
+6)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -239,14 +243,20 @@
 | Address form| For this test, I want to make sure that when the user has fill his address and all the neccessary area,the changes are able to save and update in the profile page.|Pass |
 | View form on different sizes of devices | Check how will look Profile page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
-
+7)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
-|                         Orders                    |
+|                         Order Page                     |
 | Orders Page| For this test, I want to make sure that when you clicked the Orders link.|Pass |
+| Add Address | For this test, I want to make sure that when you clicked on add address they are directed to another Page.|Pass |
+| Delete Address| For this test, I want to make sure that when you an address it stays deleted.|Pass |
+| Address form| For this test, I want to make sure that when the user has fill his address and all the neccessary area,the changes are able to save and update in the profile page.|Pass |
 | View form on different sizes of devices | Check how will look Order page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
+
+
+8)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
