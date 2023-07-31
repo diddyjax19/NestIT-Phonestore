@@ -18,30 +18,28 @@
   ## HTML Validator
 
   * Home Page
-    ![](./readmeDocumentation/screenshot/homePageValidator.png)
+    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2F)
     * Category Page
-    ![](./readmeDocumentation/screenshot/addRecipeValidator.png)
+    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Fcategories%2F)
     * Cart Page
-    ![](./readmeDocumentation/screenshot/updateRecipeValidator.png)
+    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Fcart%2F)
     * Profile Page
-    ![](./readmeDocumentation/screenshot/updateRecipeValidator.png)
+    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Fprofile%2F)
      * Order Page
-    ![](./readmeDocumentation/screenshot/updateRecipeValidator.png)
+    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Fprofile%2F)
     * Log In
-    ![](./readmeDocumentation/screenshot/logInValidator.png)
-    * Log Out
-    ![](./readmeDocumentation/screenshot/logOutValidator.png)
+    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Flogin%2F)
     * Sign-Up Page
-    ![](./readmeDocumentation/screenshot/registerValidator.png)
+    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Fregister%2F)
 
  ## CSS Validator
 
   * Css 
-  ![](./readmeDocumentation/screenshot/cssValidator.png)
+  ![](https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdiddy.pythonanywhere.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
   ## Python
 
- Add_recipe folder 
+ PhoneStore folder 
  All available files have been checked
   * form.py
   ![](./readmeDocumentation/screenshot/formFile.png)
@@ -54,7 +52,7 @@
    * url.py
    ![](./readmeDocumentation/screenshot/projectUrl.png)
   
-  recipe folder
+  Store 
     * url.py
     ![](./readmeDocumentation/screenshot/recipeUrl.png)
     * view.py
