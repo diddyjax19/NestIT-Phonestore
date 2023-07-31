@@ -1,15 +1,15 @@
 # Table of Contents
- * [Validator Testing](#validator-testing)
-   * [HTML](#html-validator)
-   * [CSS](#css-validator)
-   * [PYTHON](#python)
-   * [LIGHTHOUSE](#lighthouse)
-   * [GTMETRIX](#gtmetrix)
-   * [Ax Dev Tools](#ax-dev-tools)
+ * [Validator Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#validator-testing)
+   * [HTML](https://github.com/diddyjax19/NestIT-Phonestore--pp4#html-validator)
+   * [CSS](https://github.com/diddyjax19/NestIT-Phonestore--pp4#css-validator)
+   * [PYTHON](https://github.com/diddyjax19/NestIT-Phonestore--pp4#python)
+   * [LIGHTHOUSE](https://github.com/diddyjax19/NestIT-Phonestore--pp4#lighthouse)
+   * [GTMETRIX](https://github.com/diddyjax19/NestIT-Phonestore--pp4#gtmetrix)
+   
 
- * [Device Testing](#device-testing)
- * [Manual Testing](#manual-testing)
- * [Bugs](#bugs)
+ * [Device Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#device-testing)
+ * [Manual Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#manual-testing)
+ * [Bugs](https://github.com/diddyjax19/NestIT-Phonestore--pp4#bugs)
 
 # Validator Testing
 <details>
