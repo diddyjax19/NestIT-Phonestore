@@ -19,50 +19,48 @@
   ## HTML Validator
 
   * Home Page
-    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2F)
+    ![](readmeDocumentation/html-validator/home-page-validator.png).
     * Category Page
-    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Fcategories%2F)
+    ![](readmeDocumentation/html-validator/category-page-validator.png).
     * Cart Page
-    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Fcart%2F)
+    ![](readmeDocumentation/html-validator/cart-page-validator.png)
     * Profile Page
-    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Fprofile%2F)
+    ![](readmeDocumentation/html-validator/profile-page-validator.png)
      * Order Page
-    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Fprofile%2F)
+    ![](readmeDocumentation/html-validator/order-page-validator.png)
     * Log In
-    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Flogin%2F)
+    ![](readmeDocumentation/html-validator/login-page-validator.png)
     * Sign-Up Page
-    ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Fregister%2F)
+    ![](readmeDocumentation/html-validator/signup-validator.png)
 
+## Note
+  - W3's never validate because its browser specific. W3's validators validate based on the official standards. Things that other browsers add in will always be flagged
 
  ## CSS Validator
 
   * Css 
-  ![](https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdiddy.pythonanywhere.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  ![](readmeDocumentation/pythonlinter/css.png)
 
 ## Note
   - Probably gets flagged because its outdated but you need it for older browsers. Vendor prefixes increase compatibility with older browsers.
 
-  - W3's never validate because its browser specific. W3's validators validate based on the official standards. Things that other browsers add in will always be flagged
-
 ## Python
 
- Store folder 
+ - Store folder 
  All available files have been checked
   * form.py
-  ![](./readmeDocumentation/screenshot/formFile.png)
+  ![](readmeDocumentation/pythonlinter/forms.py.png)
   * model.py
-  ![](./readmeDocumentation/screenshot/modelfile.png)
+  ![](readmeDocumentation/pythonlinter/model.py.png)
   * url.py
-  ![](./readmeDocumentation/screenshot/urlFile.png)
+  ![](readmeDocumentation/pythonlinter/url.py1.png)
  
- Phones Store
+ - Phones Store
     * url.py
-    ![](./readmeDocumentation/screenshot/recipeUrl.png)
-    * view.py
-    ![](./readmeDocumentation/screenshot/recipeView.png)
-
+    ![](readmeDocumentation/pythonlinter/url.py.png)
+   
 ## Note
- -  Most of the issues where about the number of line is 2 long,this should be > 79 characters.)
+ -  Most of the issues where about the number of line is 2 long,this should be > 79 characters.
 
 </details>
 
