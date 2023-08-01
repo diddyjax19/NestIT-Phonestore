@@ -250,13 +250,13 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 * All images were all taken from [Pexels](https://www.pexels.com/ru-ru/). 
 
-### Wireframes:
+## Wireframes:
 
-##### Home Page - Mobile: 
+## Home Page - Mobile: 
 
 ![](readmeDocumentation\screenshots\home-page.jpg)
 
-##### Category page - Mobile: 
+## Category page - Mobile: 
 
 ![Category Page Mobile](readmeDocumentation\screenshots\category-page.jpg)
 
