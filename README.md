@@ -253,7 +253,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ## Wireframes
 
-[Link to wireframes](readmeDocumentation\wireframe)
+[Link to wireframes](readmeDocumentation/wireframe/)
 
 ### Home Page - Mobile: 
 
@@ -261,7 +261,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ### Category page - Mobile: 
 
-![Category Page Mobile](readmeDocumentation\screenshots\category-page.jpg)
+![Category Page Mobile](readmeDocumentation/wireframe/screenshots/category-page.jpg)
 
 ##### About US - Mobile: 
 
