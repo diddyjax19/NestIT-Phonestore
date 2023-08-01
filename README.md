@@ -252,13 +252,13 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ## Wireframes:
 
-## Home Page - Mobile: 
+### Home Page - Mobile: 
 
-![](readmeDocumentation\screenshots\home-page.jpg)
+![https://github.com/diddyjax19/NestIT-Phonestore#wireframes](readmeDocumentation\screenshots\home-page.jpg)
 
-## Category page - Mobile: 
+### Category page - Mobile: 
 
-![Category Page Mobile](readmeDocumentation\screenshots\category-page.jpg)
+![https://github.com/diddyjax19/NestIT-Phonestore#wireframes](readmeDocumentation\screenshots\category-page.jpg)
 
 ##### About US - Mobile: 
 
