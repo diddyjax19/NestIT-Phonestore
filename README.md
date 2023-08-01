@@ -238,8 +238,6 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
   ***
 ## Colours
 
- ![](./readmeDocumentation/screenshot/coloursUsed.png)
-
   * The colour scheme was chosen by the background image of the project. I used black for the footer and white for the background.
 
 ## Typography
@@ -251,10 +249,11 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 * All images were all taken from [Pexels](https://www.pexels.com/ru-ru/). 
 
 
+## Wireframes
+
 <details>
 <summary>Click to see more</summary>
 
-## Wireframes
 ### Home Page - Mobile: 
 
 ![Home Page](readmeDocumentation/wireframe/home-page.jpg)
@@ -302,9 +301,6 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 ![ Mobile:(Logged-Out)](readmeDocumentation/wireframe/navigation-sigin.jpg)
 
 </details>
-### Colour Scheme:
-
-![Colour Palette](src/assets/images-readme/readme-colourpalette.png)
 
 # Libraries And Installed Packages
 ***
@@ -323,7 +319,6 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
   * Cryptography - A set of primitives for easily encrypting data in Django, wrapping the Python Cryptography library
   * cffi - C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.
   * sshtunnel- establishes a connection between a port on the local machine and a main node in HDInsight 
-
 
 
 # Testing 

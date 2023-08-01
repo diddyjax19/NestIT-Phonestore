@@ -1,3 +1,4 @@
+
 # Table of Contents
  * [Validator Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#validator-testing)
    * [HTML](https://github.com/diddyjax19/NestIT-Phonestore--pp4#html-validator)
@@ -32,12 +33,18 @@
     * Sign-Up Page
     ![](https://validator.w3.org/nu/?doc=http%3A%2F%2Fdiddy.pythonanywhere.com%2Faccounts%2Fregister%2F)
 
+
  ## CSS Validator
 
   * Css 
   ![](https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdiddy.pythonanywhere.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-  ## Python
+## Note
+  Probably gets flagged because its outdated but you need it for older browsers. Vendor prefixes increase compatibility with older browsers.
+
+  W3's never validate because its browser specific. W3's validators validate based on the official standards. Things that other browsers add in will always be flagged
+
+## Python
 
  Store folder 
  All available files have been checked
@@ -48,11 +55,12 @@
   * url.py
   ![](./readmeDocumentation/screenshot/urlFile.png)
  
-  Phones Store
+ Phones Store
     * url.py
     ![](./readmeDocumentation/screenshot/recipeUrl.png)
     * view.py
     ![](./readmeDocumentation/screenshot/recipeView.png)
+
 </details>
 
 
@@ -150,7 +158,7 @@
 <details>
 <summary>Click to see more</summary>
 
-1)
+(1)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -169,7 +177,7 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
-2)
+(2)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -188,7 +196,7 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
-3)
+(3)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -203,7 +211,7 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
-4)
+(4)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -219,7 +227,7 @@
 | Footer is on all pages      | Check all pages how the footer looks   | Pass |
 
 
-5)
+(5)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -232,7 +240,7 @@
 | Home button| For this test, I want to make sure that when you clicked the home button is clicked in this section the user is directed to the home page.|Pass |
 | View form on different sizes of devices | Check how will look cart form on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
-6)
+(6)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -243,7 +251,7 @@
 | Address form| For this test, I want to make sure that when the user has fill his address and all the neccessary area,the changes are able to save and update in the profile page.|Pass |
 | View form on different sizes of devices | Check how will look Profile page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
-7)
+(7)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
@@ -255,8 +263,7 @@
 | View form on different sizes of devices | Check how will look Order page on tablets and phones, make sure all form fields are easy to see and use| Pass. |
 
 
-
-8)
+(8)
 
 | Feature       |           Test Performed    |             Result           |        
 |:--------------|:--------------------------- |:---------------------------  |
