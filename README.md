@@ -262,42 +262,41 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ##### About US - Mobile: 
 
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Desktop Mobile](readmeDocumentation\screenshots\aboutus-page.jpg)
 
 ##### Cart page - Mobile: 
 
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Desktop Mobile](readmeDocumentation\screenshots\cart-page1.jpg)
+![Desktop Mobile](readmeDocumentation\screenshots\cart-page2.jpg)
 
-When User is Logged In 
 
 ##### Profile Page - Mobile: 
 
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Profile Page - Mobile](readmeDocumentation\screenshots\profile-page.jpg)
 
 ##### Order Page - Mobile: 
 
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Order Page - Mobile](readmeDocumentation\screenshots\order-page.jpg)
 
 ##### Change Password Page - Mobile: 
 
 ![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
 
-##### Signup - Mobile: 
+##### Signup Page - Mobile: 
 
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Signup Page](readmeDocumentation\screenshots\create-account.jpg)
 
-##### Login Page:
+##### Login Page - Mobile:
 
-![Form Page](src/assets/images-readme/readme-wireframe-form.png)
+![Login Page](readmeDocumentation\screenshots\login-page.jpg)
 
 ##### Site Navigation - Mobile:(logged-In)
 
-![Site Navigation](src/assets/images-readme/readme-wireframe-sitenav.png)
+![Mobile:(logged-In)](readmeDocumentation\screenshots\navigation-sigin.jpg)
 
 ##### Site Navigation - Mobile:(Logged-Out)
 
-![Site Navigation](src/assets/images-readme/readme-wireframe-sitenav.png)
+![ Mobile:(Logged-Out)](readmeDocumentation\screenshots\navigation-dropdown-login.jpg)
 
 
 ### Colour Scheme:
