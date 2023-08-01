@@ -252,54 +252,51 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 
 ## Wireframes
-
-[Link to wireframes](readmeDocumentation/wireframe/)
-
 ### Home Page - Mobile: 
 
-![](readmeDocumentation/wireframe/home-page.jpg)
+![Home Page](readmeDocumentation/wireframe/home-page.jpg)
 
 ### Category page - Mobile: 
 
-![Category Page Mobile](readmeDocumentation/wireframe/screenshots/category-page.jpg)
+![Category Page Mobile](readmeDocumentation/wireframe/category-page.jpg)
 
 ##### About US - Mobile: 
 
-![About US -Mobile](readmeDocumentation\screenshots\aboutus-page.jpg)
+![About US -Mobile](readmeDocumentation/wireframe/aboutus-page.jpg)
 
 ##### Cart page - Mobile: 
 
-![Desktop Mobile](readmeDocumentation\screenshots\cart-page1.jpg)
-![Desktop Mobile](readmeDocumentation\screenshots\cart-page2.jpg)
+![Desktop Mobile](readmeDocumentation/wireframe/cart-page1.jpg)
+![Desktop Mobile](readmeDocumentation/wireframe/cart-page2.jpg)
 
 
 ##### Profile Page - Mobile: 
 
-![Profile Page - Mobile](readmeDocumentation\screenshots\profile-page.jpg)
+![Profile Page - Mobile](readmeDocumentation/wireframe/profile-page.jpg)
 
 ##### Order Page - Mobile: 
 
-![Order Page - Mobile](readmeDocumentation\screenshots\order-page.jpg)
+![Order Page - Mobile](readmeDocumentation/wireframe/order-page.jpg)
 
 ##### Change Password Page - Mobile: 
 
-![Change Password](readmeDocumentation\screenshots\change-password.jpg)
+![Change Password](readmeDocumentation/wireframe/change-password.jpg)
 
 ##### Signup Page - Mobile: 
 
-![Signup Page](readmeDocumentation\screenshots\create-account.jpg)
+![Signup Page](readmeDocumentation/wireframe/create-account.jpg)
 
 ##### Login Page - Mobile:
 
-![Login Page](readmeDocumentation\screenshots\login-page.jpg)
+![Login Page](readmeDocumentation/wireframe/login-page.jpg)
 
 ##### Site Navigation - Mobile:(logged-In)
 
-![Mobile:(logged-In)](readmeDocumentation\screenshots\navigation-sigin.jpg)
+![Mobile:(logged-In)](readmeDocumentation/wireframe/navigation-login.jpg)
 
 ##### Site Navigation - Mobile:(Logged-Out)
 
-![ Mobile:(Logged-Out)](readmeDocumentation\screenshots\navigation-dropdown-login.jpg)
+![ Mobile:(Logged-Out)](readmeDocumentation/wireframe/navigation-sigin.jpg)
 
 
 ### Colour Scheme:
