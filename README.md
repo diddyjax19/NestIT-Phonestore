@@ -254,15 +254,15 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ##### Home Page - Mobile: 
 
-![Desktop Home](src/assets/images-readme/readme-wireframe-home.png)
+![Home Page](readmeDocumentation\screenshots\home-page.jpg)
 
 ##### Category page - Mobile: 
 
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Category Page Mobile](readmeDocumentation\screenshots\category-page.jpg)
 
 ##### About US - Mobile: 
 
-![Desktop Mobile](readmeDocumentation\screenshots\aboutus-page.jpg)
+![About US -Mobile](readmeDocumentation\screenshots\aboutus-page.jpg)
 
 ##### Cart page - Mobile: 
 
@@ -280,7 +280,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ##### Change Password Page - Mobile: 
 
-![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Change Password](readmeDocumentation\screenshots\change-password.jpg)
 
 ##### Signup Page - Mobile: 
 
