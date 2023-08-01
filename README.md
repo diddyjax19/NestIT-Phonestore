@@ -250,15 +250,18 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 * All images were all taken from [Pexels](https://www.pexels.com/ru-ru/). 
 
-## Wireframes:
+
+## Wireframes
+
+[Link to wireframes](C:\Users\adeto\Downloads\Compressed\TictacToe-main\NestIT-Phonestore--pp4\readmeDocumentation\wireframe)
 
 ### Home Page - Mobile: 
 
-![https://github.com/diddyjax19/NestIT-Phonestore#wireframes](readmeDocumentation\screenshots\home-page.jpg)
+![](readmeDocumentation\screenshots\home-page.jpg)
 
 ### Category page - Mobile: 
 
-![https://github.com/diddyjax19/NestIT-Phonestore#wireframes](readmeDocumentation\screenshots\category-page.jpg)
+![Category Page Mobile](readmeDocumentation\screenshots\category-page.jpg)
 
 ##### About US - Mobile: 
 
