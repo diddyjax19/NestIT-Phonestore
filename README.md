@@ -253,7 +253,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ## Wireframes
 
-[Link to wireframes](C:\Users\adeto\Downloads\Compressed\TictacToe-main\NestIT-Phonestore--pp4\readmeDocumentation\wireframe)
+[Link to wireframes](readmeDocumentation\wireframe)
 
 ### Home Page - Mobile: 
 
