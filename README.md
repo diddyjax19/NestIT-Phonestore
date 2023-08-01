@@ -14,37 +14,37 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
 
 # Table of contents
 
-  * [Project goals](https://github.com/diddyjax19/NestIT-Phonestore#project-goals)
-  * [UX](https://github.com/diddyjax19/NestIT-Phonestore#ux)
-     * [User stories](https://github.com/diddyjax19/NestIT-Phonestore#user-stories)
-  
-  * [Features ](https://github.com/diddyjax19/NestIT-Phonestore#features)
-      * [Navigation](https://github.com/diddyjax19/NestIT-Phonestore#navigation-bar)
-      * [Home page](https://github.com/diddyjax19/NestIT-Phonestore#home-page)
-      * [Registration page](https://github.com/diddyjax19/NestIT-Phonestore#registration-page)
-      * [Log In / Log Out page](https://github.com/diddyjax19/NestIT-Phonestore#registration-page)
-      * [Categories](https://github.com/diddyjax19/NestIT-Phonestore#recipe-library)
-      * [About](https://github.com/diddyjax19/NestIT-Phonestore#about) 
-      * [Contact](https://github.com/diddyjax19/NestIT-Phonestore#contact)
-      * [Cart](https://github.com/diddyjax19/NestIT-Phonestore#cart)
-      * [Profile](https://github.com/diddyjax19/NestIT-Phonestore#Profile)
-      * [Orders](https://github.com/diddyjax19/NestIT-Phonestore#orders)
+  * [Project goals](#project-goals "Project goals")
+  * [UX](#ux "UX")
+     * [User stories](#user-stories "User Stories")
+     
+  * [Features ](#feature "Features")
+      * [Navigation](#navigation "Navigation")
+      * [Home page](#home-page "Home Page")
+      * [Registration page](#registration-page "Registration page")
+      * [Categories](#categories "Categories")
+      * [About Us Page](#about-Us-Page "About Us Page") 
+      * [Contact Page](#Contact-Page "Contact Page")
+      * [Cart Page](#Cart-Page "Cart Page")
+      * [My Account](#My-Account "My Account")
+      * [Orders](#orders "Orders")
+      * [Cart](#Cart "Cart")
       * [Change Password](https://github.com/diddyjax19/NestIT-Phonestore#change-password)
     
 
-  * [Design](https://github.com/diddyjax19/NestIT-Phonestore#design)
-      * [Colours](https://github.com/diddyjax19/NestIT-Phonestore#colours)
-      * [Typography](https://github.com/diddyjax19/NestIT-Phonestore#typography)
-      * [Images](https://github.com/diddyjax19/NestIT-Phonestore#images)
-      * [Wireframes](https://github.com/diddyjax19/NestIT-Phonestore#wireframes)
-  * [Libraries And Installed Packages](https://github.com/diddyjax19/NestIT-Phonestore#libraries-and-installed-packages)
-  * [Testing](https://github.com/diddyjax19/NestIT-Phonestore#testing)
+  * [Design](#design "Design")
+      * [Colours](#colours "Colours")
+      * [Typography](#Typography "Typography")
+      * [Images](#images "Images")
+      * [Wireframes](#Wireframes "Wireframes")
+  * [Libraries And Installed Packages](#Libraries-And-Installed-Packages "Libraries And Installed Packages")
+  * [Testing](#Testing "Testing")
 
-  * [Deployment](https://github.com/diddyjax19/NestIT-Phonestore#deployment) 
-  * [Technologies Used](https://github.com/diddyjax19/NestIT-Phonestore#technologies-used)
-  * [Security Features](https://github.com/diddyjax19/NestIT-Phonestore#secirity-features)
-  * [Credit](https://github.com/diddyjax19/NestIT-Phonestore#credits)
-  * [Acknowledgements](https://github.com/diddyjax19/NestIT-Phonestore#acknowledgements)
+  * [Deployment](#Deployment "Deployment") 
+  * [Technologies Used](#Technologies-Used "Technologies Used")
+  * [Security Features](#Security-Features "Security Features")
+  * [Credit](#Credit "Credit")
+  * [Acknowledgements](#Acknowledgements "Acknowledgements")
 
 
 # Project Goals
@@ -59,7 +59,7 @@ The NestIt Phone Store is  regular store where people can go to browse and order
 My Project was developed with agile planning. I had three columns: To Do, In Progress, and Done. This helps me to manage my project and helps me to be more flexible and adaptable to changes.
 Below are the User stories that were used in creating this project. I add 8 EPIC with labels MUST, SHOULD-HAVE.
 
-[Link for User stories](https://github.com/diddyjax19/NestIT-Phonestore--pp4/issues)
+I have included links to the [GitHub Issues](https://github.com/diddyjax19/NestIT-Phonestore--pp4/issues) for this project, as well as the [KANBAN board](https://github.com/users/diddyjax19/projects/7).
 
 <details>
 <summary>Click to see more</summary>
@@ -182,19 +182,19 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  ![](readmeDocumentation/screenshots/Product-detail2.png)
 
-   * About Us Page
+   ## About Us Page
 
  * This section tell the user a brief description of the website and a hiistory of the website.
 
  ![](readmeDocumentation/screenshots/about-us.png)
 
-   * Contact Page
+   ## Contact Page
 
  * In this section,the user has the opportunity to contact us directly or reach out to make enquiry.
 
  ![](readmeDocumentation/screenshots/contact.png)
 
-   * Cart Page
+   ## Cart Page
 
  * Under this Section you can see the products added to the cart,you can see the shippping address that are on your profile,you can also see a button that redirect you to continue shopping and also all the payment option available.
    
@@ -205,13 +205,13 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
  ![](readmeDocumentation/screenshots/my-account.png)
 
- * Profile
+ ## Profile
 
  * Under this page you will find the shipping address and all the items and their status.It also gives the user the ability to add address.
 
  ![](readmeDocumentation/screenshots/profile.png)
 
- * Cart
+ ## Cart
 
  * Under this Section you can see the products added to the cart,you can see the shippping address that are on your profile,you can also see a button that redirect you to continue shopping and also all the payment option available.
    
@@ -219,13 +219,13 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
  ![](readmeDocumentation/screenshots/checkout.png)
 
 
- * Orders
+## Orders
 
  * In this section,the user can see all the orders they have placed under their account,it shows the product name,the picture of the product,the quantity of product placed,the date the order was placed, and the current status of the order {completed,accepted,cancelled,delivered and pending}.
 
  ![](./readmeDocumentation/screenshot/addRecipeForm.png)
 
- * Change Password 
+ ## Change Password 
 
  * In this section,the user can reset his password.
 
@@ -636,4 +636,4 @@ And
 
 # Acknowledgements
 
-Thank you to myy mentor Daisy for helping me along the way and tutor support team
+Martina Terlevic: For help and support throughout a tough year.
