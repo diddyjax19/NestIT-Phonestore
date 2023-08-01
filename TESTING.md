@@ -40,9 +40,9 @@
   ![](https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdiddy.pythonanywhere.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## Note
-  Probably gets flagged because its outdated but you need it for older browsers. Vendor prefixes increase compatibility with older browsers.
+  - Probably gets flagged because its outdated but you need it for older browsers. Vendor prefixes increase compatibility with older browsers.
 
-  W3's never validate because its browser specific. W3's validators validate based on the official standards. Things that other browsers add in will always be flagged
+  - W3's never validate because its browser specific. W3's validators validate based on the official standards. Things that other browsers add in will always be flagged
 
 ## Python
 
@@ -60,6 +60,9 @@
     ![](./readmeDocumentation/screenshot/recipeUrl.png)
     * view.py
     ![](./readmeDocumentation/screenshot/recipeView.png)
+
+## Note
+ -  Most of the issues where about the number of line is 2 long,this should be > 79 characters.)
 
 </details>
 

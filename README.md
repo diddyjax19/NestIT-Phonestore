@@ -600,10 +600,8 @@ And
 
 # Technologies Used
 
-* [GitHub](https://github.com/Aliona83/project4--test) - is Used in conjunction with Gitpod as the code editor, to store the project and utilise git version control.
-* [Heroku](https://dashboard.heroku.com/apps/project4-recipe/deploy/github) -  Used to deploy and host the finished product.
-* [Cloudinary](https://cloudinary.com/ip/gr-sea-gg-brand-home-base?utm_source=google&utm_medium=search&utm_campaign=goog_selfserve_brand_wk22_replicate_core_branded_keyword&utm_term=1329&campaignid=17601148700&adgroupid=141182782954&keyword=cloudinary&device=c&matchtype=e&adposition=&gad=1&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmOvYU6owOOD0_4WV0wjEeSKAO26vKCB4t7DVKWyjJLhud_3K3Y0DFRoCQBIQAvD_BwE) -  Used as cloud-based storage, storing any submitted media in the deployed application.
-* [ElephantSQ](https://customer.elephantsql.com/login) - Used to host the PostgreSQL database for the application.
+* [GitHub](https://github.com/diddyjax19/NestIT-Phonestore--pp4) - is Used in conjunction with Gitpod as the code editor, to store the project and utilise git version control.
+* [Python Anywhere](https://www.pythonanywhere.com/user/Diddy/) -  Used to deploy and host the finished product.
 * [W3C](https://validator.w3.org/) - HTML Used to validate all HTML code.
 * [W3C](https://jigsaw.w3.org/css-validator/) - CSS Used to validate all CSS code.
 * [CI PEP8](https://pep8ci.herokuapp.com/) -  Testing Used to validate all Python code.
@@ -611,8 +609,7 @@ And
 * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Used to aid the implementation of styling and responsiveness.
 * [Fontawesome](https://fontawesome.com/) - is Used to implement effective icons.
 * Google Chrome Dev Tools -  Used during the development to debug and test responsiveness.
-* [Balsamiq](https://balsamiq.com/wireframes/?gad=1&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmBf4umD1_GJ4rfxmLez1jQMyL3j_-olvsWrn5Rgxvvae-sQbboRbaRoC-eAQAvD_BwE) - Used to build both the database schema diagram and design wireframes.
-* [Pexel](https://www.pexels.com/search/free/) - All mages were taken from this website.
+* [Pexel](https://www.pexels.com/search/free/) - All images were taken from this website.
 * [Color palette](https://coolors.co/) - Select colors for website.
 * [Ax Dev Tools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - Find and fix more accessibility issues during website development with axe DevTools. 
 
