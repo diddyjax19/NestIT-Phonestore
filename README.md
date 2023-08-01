@@ -251,6 +251,9 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 * All images were all taken from [Pexels](https://www.pexels.com/ru-ru/). 
 
 
+<details>
+<summary>Click to see more</summary>
+
 ## Wireframes
 ### Home Page - Mobile: 
 
@@ -298,7 +301,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ![ Mobile:(Logged-Out)](readmeDocumentation/wireframe/navigation-sigin.jpg)
 
-
+</details>
 ### Colour Scheme:
 
 ![Colour Palette](src/assets/images-readme/readme-colourpalette.png)
