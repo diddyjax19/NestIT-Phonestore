@@ -250,9 +250,59 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 * All images were all taken from [Pexels](https://www.pexels.com/ru-ru/). 
 
-## Wireframes
+### Wireframes:
 
-[Link to wireframes](https://github.com/Aliona83/project4--test/tree/main/readmeDocumentation/wireframes)
+##### Home Page - Mobile: 
+
+![Desktop Home](src/assets/images-readme/readme-wireframe-home.png)
+
+##### Category page - Mobile: 
+
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+
+##### About US - Mobile: 
+
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+
+##### Cart page - Mobile: 
+
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+
+When User is Logged In 
+
+##### Profile Page - Mobile: 
+
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+
+##### Order Page - Mobile: 
+
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+
+##### Change Password Page - Mobile: 
+
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+
+##### Signup - Mobile: 
+
+![Desktop Mobile](src/assets/images-readme/readme-wireframe-mobile.png)
+
+##### Login Page:
+
+![Form Page](src/assets/images-readme/readme-wireframe-form.png)
+
+##### Site Navigation - Mobile:(logged-In)
+
+![Site Navigation](src/assets/images-readme/readme-wireframe-sitenav.png)
+
+##### Site Navigation - Mobile:(Logged-Out)
+
+![Site Navigation](src/assets/images-readme/readme-wireframe-sitenav.png)
+
+
+### Colour Scheme:
+
+![Colour Palette](src/assets/images-readme/readme-colourpalette.png)
 
 # Libraries And Installed Packages
 ***
