@@ -257,7 +257,7 @@ Below are the User stories that were used in creating this project. I add 8 EPIC
 
 ### Home Page - Mobile: 
 
-![](readmeDocumentation\screenshots\home-page.jpg)
+![](readmeDocumentation/wireframe/home-page.jpg)
 
 ### Category page - Mobile: 
 
