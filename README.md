@@ -18,6 +18,7 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
   * [UX](#ux "UX")
      * [User stories](#user-stories "User Stories")
      
+     
   * [Features ](#feature "Features")
       * [Navigation](#navigation "Navigation")
       * [Home page](#home-page "Home Page")
@@ -60,6 +61,11 @@ My Project was developed with agile planning. I had three columns: To Do, In Pro
 Below are the User stories that were used in creating this project. I add 8 EPIC with labels MUST, SHOULD-HAVE.
 
 I have included links to the [GitHub Issues](https://github.com/diddyjax19/NestIT-Phonestore--pp4/issues) for this project, as well as the [KANBAN board](https://github.com/users/diddyjax19/projects/7).
+
+
+## Database:
+![SQL Database model](screenshots/image_2023-04-28_13-03-30.png)
+
 
 <details>
 <summary>Click to see more</summary>
