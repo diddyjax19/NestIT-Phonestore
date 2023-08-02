@@ -17,6 +17,7 @@ This fictional site was created for Portfolio Project #4 (Full-Stack Toolkit) - 
   * [Project goals](#project-goals "Project goals")
   * [UX](#ux "UX")
      * [User stories](#user-stories "User Stories")
+     * [Database](#database "Database")
      
      
   * [Features ](#feature "Features")
@@ -64,7 +65,7 @@ I have included links to the [GitHub Issues](https://github.com/diddyjax19/NestI
 
 
 ## Database:
-![SQL Database model](screenshots/image_2023-04-28_13-03-30.png)
+![SQL Database model](readmeDocumentation/screenshots/database_model.png)
 
 
 <details>
