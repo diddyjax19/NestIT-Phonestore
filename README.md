@@ -203,7 +203,7 @@ I have included links to the [GitHub Issues](https://github.com/diddyjax19/NestI
     
  ## My Account
 
- ![](readmeDocumentation/screenshots/my-account.png)
+ ![](readmeDocumentation/html-validator/css.png)
 
  ## Profile
 

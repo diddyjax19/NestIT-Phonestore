@@ -1,16 +1,16 @@
 
 # Table of Contents
- * [Validator Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#validator-testing)
-   * [HTML](https://github.com/diddyjax19/NestIT-Phonestore--pp4#html-validator)
-   * [CSS](https://github.com/diddyjax19/NestIT-Phonestore--pp4#css-validator)
-   * [PYTHON](https://github.com/diddyjax19/NestIT-Phonestore--pp4#python)
-   * [LIGHTHOUSE](https://github.com/diddyjax19/NestIT-Phonestore--pp4#lighthouse)
-   * [GTMETRIX](https://github.com/diddyjax19/NestIT-Phonestore--pp4#gtmetrix)
+ * [Validator Testing](#Validator-Testing "Validator Testing")
+   * [HTML](#HTML "Html")
+   * [CSS](#Css "Css")
+   * [PYTHON](#Python "Python")
+   * [LIGHTHOUSE](#LIGHTHOUSE "LIGHTHOUSE")
+   * [GTMETRIX](#GTMETRIX "GTMETRIX")
    
 
- * [Device Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#device-testing)
- * [Manual Testing](https://github.com/diddyjax19/NestIT-Phonestore--pp4#manual-testing)
- * [Bugs](https://github.com/diddyjax19/NestIT-Phonestore--pp4#bugs)
+ * [Device Testing](#Device-Testing "Device Testing")
+ * [Manual Testing](#Manual-Testing "Manual Testing")
+ * [Unfixed Bugs](#Unfixed-Bugs "Unfixed Bugs")
 
 # Validator Testing
 <details>
@@ -19,29 +19,30 @@
   ## HTML Validator
 
   * Home Page
-    ![](readmeDocumentation/html-validator/home-page-validator.png).
-    * Category Page
-    ![](readmeDocumentation/html-validator/category-page-validator.png).
-    * Cart Page
+    ![](readmeDocumentation/html-validator/home-page-validator.png)
+  * Category Page
+    ![](readmeDocumentation/html-validator/category-page-validator.png)
+  * Cart Page
     ![](readmeDocumentation/html-validator/cart-page-validator.png)
-    * Profile Page
+  * Profile Page
     ![](readmeDocumentation/html-validator/profile-page-validator.png)
-     * Order Page
+  * Order Page
     ![](readmeDocumentation/html-validator/order-page-validator.png)
-    * Log In
+  * Log In
     ![](readmeDocumentation/html-validator/login-page-validator.png)
-    * Sign-Up Page
+  * Sign-Up Page
     ![](readmeDocumentation/html-validator/signup-validator.png)
 
-## Note
-  - W3's never validate because its browser specific. W3's validators validate based on the official standards. Things that other browsers add in will always be flagged
+### Note
+  - W3's never validate because its browser specific. W3's validators validate based on the official standards. Things that other browsers add in will always be flagged.
 
  ## CSS Validator
 
-  * Css 
-  ![](readmeDocumentation/pythonlinter/css.png)
 
-## Note
+  * CSS
+   ![Css](readmeDocumentation/html-validator/css.png)
+
+### Note
   - Probably gets flagged because its outdated but you need it for older browsers. Vendor prefixes increase compatibility with older browsers.
 
 ## Python
@@ -275,3 +276,6 @@
 
 
 </details>
+
+### Unfixed Bugs
+- None so far.
