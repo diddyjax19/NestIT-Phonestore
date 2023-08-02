@@ -246,7 +246,7 @@ I have included links to the [GitHub Issues](https://github.com/diddyjax19/NestI
 
 ## Images
 
-* All images were all taken from [Pexels](https://www.pexels.com/ru-ru/). 
+* All images were all taken from numerous website and compressed to the specificity of the products. 
 
 
 ## Wireframes
@@ -609,8 +609,6 @@ And
 * [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Used to aid the implementation of styling and responsiveness.
 * [Fontawesome](https://fontawesome.com/) - is Used to implement effective icons.
 * Google Chrome Dev Tools -  Used during the development to debug and test responsiveness.
-* [Pexel](https://www.pexels.com/search/free/) - All images were taken from this website.
-* [Color palette](https://coolors.co/) - Select colors for website.
 * [Ax Dev Tools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - Find and fix more accessibility issues during website development with axe DevTools. 
 
 # Security Features
@@ -624,7 +622,6 @@ And
 
 # Credits    
 * [Stack Overflow](https://try.stackoverflow.co/explore-teams/?utm_source=adwords&utm_medium=ppc&utm_campaign=kb_teams_search_brand_emea-dach&_bt=657236278309&_bk=stack+overflow&_bm=p&_bn=g&gclid=CjwKCAjwhdWkBhBZEiwA1ibLmF2ghGSQXiKfjiQcnpRL_87pacwew2yt-jYDV9_z56sxtUF-BMthsRoCB7oQAvD_BwE)
-* [BBC good food](https://www.bbcgoodfood.com/)
 * [Codemy.com](https://www.youtube.com/watch?v=B40bteAMM_M&list=PLCC34OHNcOtr025c1kHSPrnP18YPB-NFi) 
 * [Django documentation](https://docs.djangoproject.com/en/4.2/)
 * [LinkedIn Learning](https://www.linkedin.com/learning/paths/become-a-django-developer)
