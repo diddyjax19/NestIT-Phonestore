@@ -4,7 +4,9 @@ from pathlib import Path
 
 import os
 import environ
-from sshtunnel import SSHTunnelForwarder
+import dj_database_url
+from dotenv import load_dotenv
+
 
 # initialise environment variables
 env = environ.Env()
@@ -21,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = int(env('DEBUG'))
 
-ALLOWED_HOSTS = ['diddy.pythonanywhere.com', 'localhost','127.0.0.1']
+ALLOWED_HOSTS = ['nestit-d6952187268f.herokuapp.com', 'localhost','127.0.0.1']
 
 # Application definition
 
@@ -40,6 +42,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -71,21 +74,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'phonestore.wsgi.application'
 
-remote_address = env('ADDRESS')
-# connect to a server uisng ssh username and password
-server = SSHTunnelForwarder(
-    'ssh.pythonanywhere.com',
-    ssh_username=env('SSH_USERNAME'),
-    ssh_password=env('SSH_PASSWORD'),
-    remote_bind_address=(remote_address, 3306)
-)
-
-server.start()
-
-print(server.local_bind_port)  # show assigned local port
-# work with `SECRET SERVICE` through `server.local_bind_port`.
-
-
 # # SQLite Database
 # DATABASES = {
 #     'default': {
@@ -94,22 +82,15 @@ print(server.local_bind_port)  # show assigned local port
 #     }
 # }
 
-
 DATABASES = {
-    # default database
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    },
-    # MySQL database
-    'server_db': {
-        'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'localhost',
-        'PORT': server.local_bind_port,
-        'NAME': 'Diddy$nestit',
-        'USER': env('DATABASE_USER'),
-        'PASSWORD': env('DATABASE_PASSWORD'),
-    },
+    "default": {
+        **dj_database_url.config(conn_max_age=600, conn_health_checks=True),
+        "TIMEZONE": "UTC",
+        "ATOMIC_REQUESTS": True,
+        "OPTIONS": {
+            "client_encoding": "UTF8",
+        },
+    }
 }
 
 # Password validation
