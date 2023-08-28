@@ -1,14 +1,15 @@
 
 
-from pathlib import Path
-
 import os
+from pathlib import Path
 import environ
 import dj_database_url
 from dotenv import load_dotenv
+# if os.path.isfile('env.py'):
+#      import env
 
 
-# initialise environment variables
+# # initialise environment variables
 env = environ.Env()
 environ.Env.read_env()
 
@@ -21,9 +22,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env('SECRET_KEY')
+# SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = int(env('DEBUG'))
+# DEBUG = True
 
 ALLOWED_HOSTS = ['nestit-d6952187268f.herokuapp.com', 'localhost','127.0.0.1']
 
@@ -74,24 +77,44 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'phonestore.wsgi.application'
 
-# # SQLite Database
+#SQLite Database
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+
 # DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
+#     "default": {
+#         **dj_database_url.config(conn_max_age=600, conn_health_checks=True),
+#         "TIMEZONE": "UTC",
+#         "ATOMIC_REQUESTS": True,
+#         "OPTIONS": {
+#             "client_encoding": "UTF8",
+#         },
 #     }
 # }
 
-DATABASES = {
-    "default": {
-        **dj_database_url.config(conn_max_age=600, conn_health_checks=True),
-        "TIMEZONE": "UTC",
-        "ATOMIC_REQUESTS": True,
-        "OPTIONS": {
-            "client_encoding": "UTF8",
-        },
-    }
-}
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'd9791vc80i44pf',
+#         'USER': 'tdbotopscjtwkj',
+#         'PASSWORD': '5fb28e61337775738df362ea5489fe037c0e0bee8cffde67a34289d5e660c499',
+#         'HOST': 'ec2-34-242-199-141.eu-west-1.compute.amazonaws.com',  # Set to your database host
+#         'PORT': '5432',       # Default PostgreSQL port
+#     }
+# }
+
+
+
+
+
+# DATABASES = {
+#      'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+#  }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
