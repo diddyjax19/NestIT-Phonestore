@@ -3,8 +3,8 @@ from pathlib import Path
 import environ
 import dj_database_url
 from dotenv import load_dotenv
-# if os.path.isfile('env.py'):
-#      import env
+if os.path.isfile('env.py'):
+     import env
 
 
 # Load environment variables from .env file
@@ -22,12 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
-# SECRET_KEY = os.environ.get('SECRET_KEY')
+# SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env("DEBUG", default=False)
-# DEBUG = True
+# DEBUG = env("DEBUG", default=False)
+DEBUG = False
 
 ALLOWED_HOSTS = ['nestit-d6952187268f.herokuapp.com', 'localhost','127.0.0.1']
 
@@ -155,13 +155,22 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'phonestore/static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Automatically Created on Production
+# STATIC_URL = '/static/'
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'phonestore/static')]
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Automatically Created on Production
+
+# # Settings for Media
+# MEDIA_URL = '/media/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+
+STATIC_URL = "/static/"
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+STATIC_ROOT = os.path.join(BASE_DIR, "phonestore/static")  # Automatically Created on Production
 
 # Settings for Media
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "phonestore/media")
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
