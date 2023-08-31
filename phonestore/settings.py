@@ -1,5 +1,3 @@
-
-
 import os
 from pathlib import Path
 import environ
@@ -8,6 +6,9 @@ from dotenv import load_dotenv
 # if os.path.isfile('env.py'):
 #      import env
 
+
+# Load environment variables from .env file
+load_dotenv()
 
 # # initialise environment variables
 env = environ.Env()
@@ -25,7 +26,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = int(env('DEBUG'))
+DEBUG = env("DEBUG", default=False)
 # DEBUG = True
 
 ALLOWED_HOSTS = ['nestit-d6952187268f.herokuapp.com', 'localhost','127.0.0.1']
@@ -38,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
+    'cloudinary_storage',
     'django.contrib.staticfiles',
+    'cloudinary',
     'django.contrib.humanize',
     'store',
 ]
@@ -77,13 +80,13 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'phonestore.wsgi.application'
 
-#SQLite Database
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# #SQLite Database
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
 
 # DATABASES = {
 #     "default": {
@@ -109,12 +112,14 @@ DATABASES = {
 # }
 
 
+# DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
 
 
 
-# DATABASES = {
-#      'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
-#  }
+
+DATABASES = {
+     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
+ }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
@@ -153,11 +158,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'phonestore/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Automatically Created on Production
 
 # Settings for Media
 MEDIA_URL = '/media/'
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
