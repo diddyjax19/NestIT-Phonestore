@@ -1,18 +1,18 @@
-import os
+
+
 from pathlib import Path
+
+import os
 import environ
 import dj_database_url
+import django_heroku
 from dotenv import load_dotenv
 if os.path.isfile('env.py'):
      import env
 
-
-# Load environment variables from .env file
-load_dotenv()
-
-# # initialise environment variables
+# initialise environment variables
 env = environ.Env()
-# environ.Env.read_env()
+environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -22,12 +22,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = env('SECRET_KEY')
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = env("DEBUG", default=False)
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['nestit-d6952187268f.herokuapp.com', 'localhost','127.0.0.1']
 
@@ -46,7 +44,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -78,7 +75,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'phonestore.wsgi.application'
 
-# #SQLite Database
+
+
+# SQLite Database
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.sqlite3',
@@ -87,20 +86,19 @@ WSGI_APPLICATION = 'phonestore.wsgi.application'
 # }
 
 # DATABASES = {
-#     "default": {
-#         **dj_database_url.config(conn_max_age=600, conn_health_checks=True),
-#         "TIMEZONE": "UTC",
-#         "ATOMIC_REQUESTS": True,
-#         "OPTIONS": {
-#             "client_encoding": "UTF8",
-#         },
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'DATABASE_NAME',
+#         'USER': 'DATABASE_USER',
+#         'PASSWORD': 'DATABASE_PASSWORD',
+#         'HOST': 'ec2-34-242-199-141.eu-west-1.compute.amazonaws.com',  # Set to your database host
+#         'PORT': '5432',       # Default PostgreSQL port
 #     }
 # }
 
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'd9791vc80i44pf',
         'USER': 'tdbotopscjtwkj',
         'PASSWORD': '5fb28e61337775738df362ea5489fe037c0e0bee8cffde67a34289d5e660c499',
@@ -109,18 +107,12 @@ DATABASES = {
     }
 }
 
-
-# DATABASES = {"default": dj_database_url.parse(os.environ.get("DATABASE_URL"))}
-
-
-
-
-# DATABASES = {
-#      'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
-#  }
-
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
+
+# DATABASES = {
+#      'default': dj_database_url.parse(os.environ.get("postgres://tdbotopscjtwkj:5fb28e61337775738df362ea5489fe037c0e0bee8cffde67a34289d5e660c499@ec2-34-242-199-141.eu-west-1.compute.amazonaws.com:5432/d9791vc80i44pf"))
+#  }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -155,22 +147,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-# STATIC_URL = '/static/'
-# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'phonestore/static')]
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Automatically Created on Production
-
-# # Settings for Media
-# MEDIA_URL = '/media/'
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-
-STATIC_URL = "/static/"
-STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
-STATIC_ROOT = os.path.join(BASE_DIR, "phonestore/static")  # Automatically Created on Production
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'phonestore/static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+django_heroku.settings(locals()) # Automatically Created on Production
 
 # Settings for Media
-MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, "phonestore/media")
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
