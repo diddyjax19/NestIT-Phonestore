@@ -3,6 +3,7 @@ from pathlib import Path
 import environ
 from dotenv import load_dotenv
 import dj_database_url
+import django_heroku
 
 # Load environment variables from .env file
 load_dotenv()
@@ -23,7 +24,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = env("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env("DEBUG", default=False)
+DEBUG = env("DEBUG")
 
 # ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["localhost", "127.0.0.1"])
 
@@ -124,6 +125,7 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # Define the directory where collected static files will be stored for deployment:
 STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
+django_heroku.settings(locals())
 
 # Settings for Media
 MEDIA_URL = "/media/"
