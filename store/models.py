@@ -40,7 +40,7 @@ class Category(models.Model):
 class Product(models.Model):
     title = models.CharField(max_length=200, verbose_name="Product Title")
     slug = models.SlugField(max_length=155, verbose_name="Product Slug")
-    sku = models.CharField(max_length=155, unique=True, null= True, blank= True, verbose_name="Unique Product ID (SKU)")
+    sku = models.CharField(max_length=155, unique=True, verbose_name="Unique Product ID (SKU)")
     short_description = models.TextField(verbose_name="Short Description")
     detail_description = models.TextField(blank=True, null=True, verbose_name="Detail Description")
     product_image = models.ImageField(upload_to='product', blank=True, null=True, verbose_name="Product Image")
