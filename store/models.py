@@ -1,8 +1,17 @@
+from datetime import timezone
+import os
 from django.db import models
 from django.contrib.auth.models import User
 
 # Create your models here.
+def upload_to(instance, filename):
+    # Generate a unique filename based on the current timestamp and user ID
+    extension = filename.split(".")[-1]  # Get the file extension
+    timestamp = timezone.now().strftime("%Y%m%d%H%M%S")  # Current timestamp
+    unique_filename = f"{timestamp}_{instance.user.id}.{extension}"
 
+    # Return the full path to the file
+    return os.path.join("media/category", unique_filename)
 
 # Product model
 class Address(models.Model):
