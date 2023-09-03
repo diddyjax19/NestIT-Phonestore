@@ -309,25 +309,6 @@ I have included links to the [GitHub Issues](https://github.com/diddyjax19/NestI
 
 </details>
 
-# Libraries And Installed Packages
-***
-  * Django -crispy-forms - Used to render forms throughout the project.
-  * Django - allauth - Allows authentication, registration and account management in Django.
-  * django-environ - is the Python package that allows you to use Twelve-factor methodology to configure your Django application with environment variables.
-  * mySqlclient - Python interface to MySQL.
-  * sqlparse - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements. 
-  * pytz - This library allows accurate and cross platform timezone calculations using Python 2.4 or higher.
-  * PyNaCl -PyNaCl is a Python binding to libsodium, which is a fork of the Networking and Cryptography library. 
-  * pycparser- pycparser is a complete parser of the C language, written in pure Python using the PLY parsing library. It parses C code into an AST and can serve as a front-end for C compilers or analysis tools.
-  * Pillow -The Python Imaging Library adds image processing capabilities to your Python interpreter.
-  * Paramiko -Paramiko is a pure-Python 1 (3.6+) implementation of the SSHv2 protocol 2, providing both client and server functionality. It provides the foundation for the high-level SSH library Fabric, which is what we recommend you use for common client use-cases such as running remote shell commands or transferring files.
-  * bcrypt - Acceptable password hashing for your software and your servers
-  * Asgiref - ASGI is a standard for Python asynchronous web apps and servers to communicate with each other, and positioned as an asynchronous successor to WSGI.
-  * Cryptography - A set of primitives for easily encrypting data in Django, wrapping the Python Cryptography library
-  * cffi - C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation.
-  * sshtunnel- establishes a connection between a port on the local machine and a main node in HDInsight 
-
-
 # Testing 
 ***
 
@@ -380,11 +361,10 @@ The site was deployed to Heroku. The following steps were taken:
 - navigated to the Settings Tab, to add the following key/value pairs to the configvars:
 1. key: SECRET_KEY | value: randomkey
 2. key: PORT | value: 8000
-3. key: Debug | value: 0
+3. key: CLOUDINARY_URL | value: API environment variable
 4. key: DATABASE_URL | value: value supplied by Heroku
-5. key: DISABLE_COLLECTSTATICS | value: 1
-- added the DATABASE_URL, SECRET_KEY and DEBUG to the env.py file
-- added the DATABASE_URL, SECRET_KEY and DEBUG to the settings.py file
+- added the DATABASE_URL, SECRET_KEY & CLOUDINARY_URL to the env.py file
+- added the DATABASE_URL, SECRET_KEY & CLOUDINARY_URL to the settings.py file
 - add an import os statement for the env.py file.
 - added Heroku to the ALLOWED_HOSTS in settings.py
 - created the Procfile
@@ -428,37 +408,19 @@ Below your import in settings.py:
 In the same directory as settings.py, create a file called `.env`
 
 5. Declare your environment variables in .env
-Make sure you don’t use quotations around strings.
+Make sure to use quotations around strings.
 
-    SECRET_KEY=h^z13$qr_s_wd65@gnj7a=xs7t05$w7q8!x_8zsld#
-    DATABASE_NAME=mysql
-    DATABASE_USER=bob
-    DATABASE_PASS=supersecretpassword
+    SECRET_KEY = "*******"
+    DEBUG = "********"
+    DATABASE_URL = "********"
+    CLOUDINARY_URL = "*************"
 
 6. IMPORTANT: Add your .env file to .gitignore
 If you don’t have a .gitignore file already, create one at the project root. Make sure the name of your .env file is included.
 
 7. Replace all references to your environment variables in settings.py, like so
 
-```
-DATABASES = {
-‘default’: {
-‘ENGINE’: ‘django.db.backends.mysql’,
-‘NAME’: env(‘DATABASE_NAME’),
-‘USER’: env(‘DATABASE_USERNAME’),
-‘PASSWORD’: env(‘DATABASE_PASSWORD’),
-}
-}
-```
-And
-
-`SECRET_KEY = env(‘SECRET_KEY’)`
-
-## Migrating the database from SQLite to MySQL
-
-
-
-# Technologies Used
+## Technologies Used
 
 * [GitHub](https://github.com/diddyjax19/NestIT-Phonestore--pp4) - is Used in conjunction with Gitpod as the code editor, to store the project and utilise git version control.
 * [Python Anywhere](https://www.pythonanywhere.com/user/Diddy/) -  Used to deploy and host the finished product.
@@ -470,6 +432,56 @@ And
 * [Fontawesome](https://fontawesome.com/) - is Used to implement effective icons.
 * Google Chrome Dev Tools -  Used during the development to debug and test responsiveness.
 * [Ax Dev Tools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) - Find and fix more accessibility issues during website development with axe DevTools. 
+
+# Modules Used
+- asgiref==3.3.4
+- bcrypt==4.0.1
+- certifi==2023.7.22
+- cffi==1.15.1
+- charset-normalizer==3.2.0
+- cloudinary==1.34.0
+- cryptography==41.0.1
+- dj-database-url==0.5.0
+- dj3-cloudinary-storage==0.0.6
+- Django==3.2.3
+- django-environ==0.10.0
+- django-heroku==0.3.1
+- gunicorn==21.2.0
+- idna==3.4
+- mysqlclient==2.1.1
+- packaging==23.1
+- paramiko==3.2.0
+- Pillow==9.5.0
+- psycopg2==2.9.7
+- psycopg2-binary==2.9.7
+- pycparser==2.21
+- PyNaCl==1.5.0
+- python-dotenv==1.0.0
+- pytz==2021.1
+- requests==2.31.0
+- six==1.16.0
+- sqlparse==0.4.1
+- typing_extensions==4.7.1
+- urllib3==1.26.15
+- whitenoise==6.5.0 
+
+# Brief Writeup on few of the libaries Used
+***
+  * Django -crispy-forms - Used to render forms throughout the project.
+  * Django - allauth - Allows authentication, registration and account management in Django.
+  * django-environ - is the Python package that allows you to use Twelve-factor methodology to configure your Django application with environment variables.
+  * mySqlclient - Python interface to MySQL.
+  * sqlparse - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements. 
+  * pytz - This library allows accurate and cross platform timezone calculations using Python 2.4 or higher.
+  * PyNaCl -PyNaCl is a Python binding to libsodium, which is a fork of the Networking and Cryptography library. 
+  * pycparser- pycparser is a complete parser of the C language, written in pure Python using the PLY parsing library. It parses C code into an AST and can serve as a front-end for C compilers or analysis tools.
+  * Pillow -The Python Imaging Library adds image processing capabilities to your Python interpreter.
+  * Paramiko -Paramiko is a pure-Python 1 (3.6+) implementation of the SSHv2 protocol 2, providing both client and server functionality. It provides the foundation for the high-level SSH library Fabric, which is what we recommend you use for common client use-cases such as running remote shell commands or transferring files.
+  * bcrypt - Acceptable password hashing for your software and your servers
+  * Asgiref - ASGI is a standard for Python asynchronous web apps and servers to communicate with each other, and positioned as an asynchronous successor to WSGI.
+  * Cryptography - A set of primitives for easily encrypting data in Django, wrapping the Python Cryptography library
+  * cffi - C Foreign Function Interface for Python. Interact with almost any C code from Python, based on C-like declarations that you can often copy-paste from header files or documentation. 
+
 
 # Security Features
 
