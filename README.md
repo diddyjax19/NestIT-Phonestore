@@ -359,180 +359,50 @@ Details of all testing done can be viewed in depth in the
 
 ### Manual Deplyoment In Python Anywhere:
 
-1. - Uploading your code to PythonAnywhere
-    Assuming your code is already on a code sharing site like GitHub or Bitbucket, you can just clone it from a Bash Console:
+# Deployment
+The site was deployed to Heroku. The following steps were taken:
+- Install Django & Gunicorn:
+```pip install 'django<4' gunicorn```
+- Install Django database & psycopg:
+```pip install dj_database_url psycopg2```
+- Creating the requirements.txt file with the following command:
+```pip freeze --local > requirements.txt```
+- Django project created using:``
+```django-admin startproject phonestore```
+- Django project created using:``
+```django-admin startapp store```
+- the changes were then migrated using:
+```python3 manage.py makemigrations```
+- the changes were then migrated using:
+```python3 manage.py migrate```
+- navigated to [Heroku](www.heroku.com) & created a new app called nestit.
+- added the Heroku Postgres database to the Resources tab.
+- navigated to the Settings Tab, to add the following key/value pairs to the configvars:
+1. key: SECRET_KEY | value: randomkey
+2. key: PORT | value: 8000
+3. key: Debug | value: 0
+4. key: DATABASE_URL | value: value supplied by Heroku
+5. key: DISABLE_COLLECTSTATICS | value: 1
+- added the DATABASE_URL, SECRET_KEY and DEBUG to the env.py file
+- added the DATABASE_URL, SECRET_KEY and DEBUG to the settings.py file
+- add an import os statement for the env.py file.
+- added Heroku to the ALLOWED_HOSTS in settings.py
+- created the Procfile
+- pushed the project to Github
+- connected my github account to Heroku through the Deploy tab
+- connected my github project repository, and then clicked on the "Deploy" button
 
-![screenshot 1](readmeDocumentation/pythonanywhere/1.PNG)
+## Final Deployment
 
-2. Create a virtualenv and install Django and any other requirements
-    In your Bash console, create a virtualenv, naming it after your project, and choosing the version of Python you want to use:
+### Gitpod
+- Ensure 'DEBUG = FALSE' in settings.py
+- Add "X_FRAME_OPTIONS= 'SAME ORIGIN'" to settings.py, to ensure that summernote editor works in deployed project.
+- Add, commit and push deployment commit to GitHub.
 
-![screenshot 2](readmeDocumentation/pythonanywhere/2.PNG)
-  Warning: Django may take a long time to install. PythonAnywhere has very fast internet, but the filesystem access can be slow, 
-  and Django creates a lot of small files during its installation. Thankfully you only have to do it once!
-
-TIP: if you see an error saying mkvirtualenv: command not found, check out InstallingVirtualenvWrapper.
-
-3. Setting up your Web app and WSGI file
-    At this point, you need to be armed with 3 pieces of information:
-
-  The path to your Django project's top folder -- the folder that contains "manage.py", eg /home/myusername/mysite
-  The name of your project (that's the name of the folder that contains your settings.py), eg mysite
-  The name of your virtualenv, eg mysite-virtualenv
-  Create a Web app with Manual Config
-  Head over to the Web tab and create a new web app, choosing the "Manual Configuration" option and the right version of Python (the same one you used to create your virtualenv).
-
-![screenshot 3](readmeDocumentation/pythonanywhere/3.PNG)
-
-4. NOTE: Make sure you choose Manual Configuration, not the "Django" option, that's for new projects only.
-    Enter your virtualenv name
-    Once that's done, enter the name of your virtualenv in the Virtualenv section on the web tab and click OK.
-
-![screenshot 3.1](readmeDocumentation/pythonanywhere/3.1.PNG)
-
-5. You can just use its short name "mysite-virtualenv", and it will automatically complete to its full path in /home/username/.virtualenvs.
-
-    Optional: enter path to your code
-    Although this isn't necessary for the app to work, you can optionally set your working directory and give yourself a convenient hyperlink to your source files from the web tab.
-
-    Enter the path to your project folder in the Code section on the web tab, eg /home/myusername/mysite in Source code and Working directory
-
-![screenshot 3.2](readmeDocumentation/pythonanywhere/3.2.PNG)
-
-6. Edit your WSGI file
-    One thing that's important here: your Django project (if you're using a recent version of Django) will have a file inside it called wsgi.py. This is not the one you need to change to set things up on PythonAnywhere -- the system here ignores that file.
-
-    Instead, the WSGI file to change is the one that has a link inside the "Code" section of the Web tab -- it will have a name something like /var/www/yourusername_pythonanywhere_com_wsgi.py or /var/www/www_yourdomain_com_wsgi.py.
-
-    Click on the WSGI file link, and it will take you to an editor where you can change it.
-
-    Delete everything except the Django section and then uncomment that section. Your WSGI file should look something like this:
-
-![screenshot 4](readmeDocumentation/pythonanywhere/4.PNG)
-
-7. Be sure to substitute the correct path to your project, the folder that contains manage.py, which you noted above.
-    Don't forget to substitute in your own username too!
-    * Also make sure you put the correct value for DJANGO_SETTINGS_MODULE.
-    * This guide assumes you're using a recent version of Django, so leave the old wsgi.WSGIHandler() code commented out, or better still, delete it.
-  
-8. Save the file, then go and hit the Reload button for your domain. (You'll find one at the top right of the wsgi file editor, or you can go back to the main web tab).
-
-9. Database setup
-    If, like most sites, your site uses a database, you'll need to set that up. Go to the Consoles tab, start a bash console, use cd to navigate to the directory where your Django project's manage.py lives, then run.
-
-![screenshot 5](readmeDocumentation/pythonanywhere/5.PNG)
-
-# How to start Using MySQL.
-To start using MySQL, you'll need to go to the MySQL tab on your dashboard, and set up a password. You'll also find the connection settings (host name, username) on that tab, as well as the ability to create new databases.
-
-You can start a new MySQL console to access your databases from this tab too, or alternatively you can open a MySQL shell with the following command from a bash console or ssh session:
-
-`mysql -u USERNAME -h HOSTNAME -p 'USERNAME$DATABASENAME'`
-In this:
-
-The USERNAME is the username you use to log in to PythonAnywhere
-The HOSTNAME is on your Databases tab
-The 'USERNAME$DATABASENAME' is the full name of your database, which comprises your username, then a dollar sign, then the name you gave it. The single quotes around it are important! If you don't put them in there, bash will try to interpret the $DATABASENAME as an environment variable, which will lead to an error saying ERROR 1044 (42000): Access denied for user 'USERNAME'@'%' to database 'USERNAME'
-When you run the command, it will prompt you for a password -- use the one you entered on the Databases tab.
-
-Accessing MySQL from Python
-
-The appropriate libraries are installed for all versions of Python that are supported, so if you're not using a virtualenv, to access a MySQL database just import MySQLdb.
-
-If you are using a virtualenv, you'll need to install the correct package yourself. Start a bash console inside the virtualenv, then:
-
-For Python 3.x
-
-`pip install mysqlclient`
-
-### MySQL with Django
-To configure Django to access a MySQL database on PythonAnywhere, you need to do this in your settings file:
-
-```
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': '<your_username>$<your_database_name>',
-        'USER': '<your_username>',
-        'PASSWORD': '<your_mysql_password>',
-        'HOST': '<your_mysql_hostname>',
-    }
-}
-
-```
-Again, you can get the username and hostname details from the "Databases" tab.
-
-### MySQL with Django tests
-When you run Django tests that use the database, Django tries to create a database called `test_<original database name>` and that will fail because Django does not have permissions to create a new database. To run Django tests on PythonAnywhere, add a TEST key to your database definition in settings.py. Like this:
-
-```
-DATABASES = {
-    'default': {
-         ...
-        'TEST': {
-          'NAME': '<your username>$test_<your database name>',
-
-```
-[More info here:](https://docs.djangoproject.com/en/3.2/ref/settings/#test)
-
-We suggest you use a form like `<your username>$test_<your database name>`. Create this database from the PythonAnywhere Databases tab and Django will happily use it and run your tests.
-
-## how to Access your MySQL database from outside PythonAnywhere
-There are a number of ways to do this. The first thing to know is the SSH hostname for your account:
-
-If the account is on the global, US-based system at www.pythonanywhere.com, then the SSH hostname is ssh.pythonanywhere.com
-If the account is on the EU-based system at eu.pythonanywhere.com, then the SSH hostname is ssh.eu.pythonanywhere.com
-Note the difference in hostnames for both SSH and MySQL:
-
-Hostname	
-Global-US:	ssh.pythonanywhere.com	username.mysql.pythonanywhere-services.com
-EU:	ssh.eu.pythonanywhere.com	username.mysql.eu.pythonanywhere-services.com
-
-SSH	MySQL
-Global-US: username.mysql.pythonanywhere-services.com
-EU:	username.mysql.eu.pythonanywhere-services.com
-
-### From Django
-If running the project on your local machine, and you want it to access your MySQL database, you can install the sshtunnel package (`pip install sshtunnel`)and then use code like this:
-
-1. In the django settings.py create an ssh tunnel before the django DB settings block:
-```
-from sshtunnel import SSHTunnelForwarder
-
-# connect to a server uisng ssh username and password
-server = SSHTunnelForwarder(
-    'SERVER_IP',
-    ssh_username="SSH_USERNAME",
-    ssh_password="SSH_PASSWORD",
-    remote_bind_address=('your database hostname', 3306)
-)
-
-server.start()
-
-print(server.local_bind_port)  # show assigned local port
-# work with `SECRET SERVICE` through `server.local_bind_port`.
-
-```
-2. Then add the Database info block in the settings.py. Here I am adding a default local mySQLite DB and the remote MySQL DB that we connect to using the ssh tunnel
-
-```
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    },
-    'server_db': {
-        'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'HOST': 'localhost',
-        'PORT': server.local_bind_port,
-        'NAME': REMOTE_DB_DB_NAME,
-        'USER': REMOTE_DB_USERNAME,
-        'PASSWORD': REMOTE_DB_PASSWORD,
-    },
-}
-```
-3. Executions like make migratations can be made to the remote db using commands like `$ python manage.py migrate --database=server_db` or make calls to the db from within the python code using lines like Models.objects.all().using('shhtunnel_db')
-
+### Heroku
+- Go to 'Settings' tab and reveal config vars. Remove COLLECT_STATIC environment variable.
+- Go to 'Deploy' tab and scroll down to 'Deploy Branch' (ensure github repo is connected). Run deployment.
+- Wait for confirmation that application has deployed.
 
 # How to set up environment variables in Django for security
 It is important to keep sensitive bits of code like API keys and passwords away from the public.
@@ -586,23 +456,6 @@ And
 
 ## Migrating the database from SQLite to MySQL
 
-1. Verify database by running `python manage.py dbshell`
-2.  Backup data`python manage.py dumpdata > mydb.json `
-3.  Create a new database on my pythonanywhere
-4. Add my Sql database settings to settings file :
-``` DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.mysql',
-            'NAME': env('DATABASE_NAME'),
-            'USER': env('DATABASE_USER'),
-            'PASSWORD': env('DATABASE_PASSWORD'),
-            'HOST': '127.0.0.1',   # Or an IP Address that your DB is hosted on
-            'PORT': '3306',
-        }
-    }
- ```
- 5. Run `python manange.py migrate`
- 6. Run `python manage.py loaddata 'mydb.json'`
 
 
 # Technologies Used
@@ -638,3 +491,4 @@ And
 # Acknowledgements
 
 Martina Terlevic: For help and support throughout a tough year.
+
